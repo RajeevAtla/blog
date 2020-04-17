@@ -51,6 +51,8 @@ minima:
 #header_pages:
  # - about.md
 
+markdown: kramdown
+
 # Build settings
 theme: minima
 
