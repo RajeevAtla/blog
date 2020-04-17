@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Site Launch"
+comments: true
 categories: misc
 ---
 
