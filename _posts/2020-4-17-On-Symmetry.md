@@ -25,6 +25,7 @@ Consider an area element $dA = dx \, dy$ located at $(x,y,0)$.
 ![alt text][id]
 
 [id]: /images/siuxnbrp (1).png "Diagram 1"
+(Produced using Asymptote)
 
 The total charge on this element, since the surface charge density is uniform, is $ \sigma \, dx \, dy$.
 The distance from this element to the point charge is $ \sqrt{x^2 + y^2 + \left ( \frac{a}{2} \right)^2 }$.
@@ -34,5 +35,14 @@ $$ dF = \frac{\sigma q}{4 \pi \epsilon_0} \frac{dx \, dy}{x^2 + y^2 + \left ( \f
 
 However, we can't just integrate this, but have to account for directions. We can see that the forces proportional to $ \hat{x}$ and $ \hat{y}$ both vanish, leaving only the force in the $\hat{z}$ direction.
 
+
+To find $dF_z$, we multiply $dF$ by $\sin{\theta}$. From the diagram, we know that
+
+$$ \sin{\theta} = \frac{a}{2 \sqrt{x^2 + y^2 + \left ( \frac{a}{2} \right)^2}} $$
+
+Therefore,
+$$ 
+dF_z = dF \, \sin{\theta} = \left ( \frac{\sigma q}{4 \pi \epsilon_0} \frac{dx \, dy}{x^2 + y^2 + \left ( \frac{a}{2} \right)^2} \right) \left (\frac{a}{2 \sqrt{x^2 + y^2 + \left ( \frac{a}{2} \right)^2}} \right) = \frac{\sigma q a}{8 \pi \epsilon_0} \frac{dx \, dy}{\left ( x^2 + y^2 + \left ( \frac{a}{2} \right )^2 \right)^{\frac{3}{2}} }
+$$
 
 ## The Solution I Found 2 Minutes Later :')
