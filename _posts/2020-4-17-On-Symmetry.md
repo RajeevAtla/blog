@@ -94,6 +94,15 @@ $$
 F_z = \frac{\sigma q a^2}{8 \pi \epsilon_0} \int \limits_{-a/2}^{a/2} \frac{dy}{\left ( y^2 + \left ( \frac{a}{2} \right)^2 \right) \sqrt{y^2 + 2 \left (\frac{a}{2} \right)^2 }}
 $$
 
+We ansatz the substitution $y = \frac{\sqrt{2}}{2} a \tan{\phi}$ because of symmetry.
+This implies that $y^2 = \frac{1}{2} a^2 \tan^2 \phi$ and $dy = \frac{\sqrt{2}}{2} a \sec^2 \phi \, d \phi$.
+
+
+$$
+\int \frac{dy}{\left ( y^2 + \left ( \frac{a}{2} \right)^2 \right) \sqrt{y^2 +  \frac{a^2}{2} }} = \frac{4}{a^2} \int \frac{\sec{\phi}}{2 \tan^2 \phi + 1}
+$$
+
+
 
 
 ## The Solution I Found 2 Minutes Later :')
