@@ -24,7 +24,7 @@ Consider an area element $dA = dx \, dy$ located at $(x,y,0)$.
 
 ![alt text][id]
 
-[id]: /images/diag1.png "Diagram 1"
+[id]: assets/images/diag1.png "Diagram 1"
 
 (Produced using Asymptote)
 
@@ -159,7 +159,7 @@ The integral here is easy! It's just the flux. Normally, we would have used a bi
 
 ![alt text][id]
 
-[id]: /images/diag2.png "Diagram 2"
+[id]: assets/images/diag2.png "Diagram 2"
 
 
 The flux through the whole cube must be $\frac{q}{\epsilon_0}$.
