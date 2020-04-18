@@ -24,7 +24,7 @@ Consider an area element $dA = dx \, dy$ located at $(x,y,0)$.
 
 ![alt text][id]
 
-[id]: /images/siuxnbrp (1).png "Diagram 1"
+[id]: /images/diag1.png "Diagram 1"
 
 (Produced using Asymptote)
 
@@ -44,7 +44,7 @@ $$ \sin{\theta} = \frac{a}{2 \sqrt{x^2 + y^2 + \left ( \frac{a}{2} \right)^2}} $
 Therefore,
 
 
-$$ 
+$$
 dF_z = dF \, \sin{\theta} = \left ( \frac{\sigma q}{4 \pi \epsilon_0} \frac{dx \, dy}{x^2 + y^2 + \left ( \frac{a}{2} \right)^2} \right) \left (\frac{a}{2 \sqrt{x^2 + y^2 + \left ( \frac{a}{2} \right)^2}} \right) = \frac{\sigma q a}{8 \pi \epsilon_0} \frac{dx \, dy}{\left ( x^2 + y^2 + \left ( \frac{a}{2} \right )^2 \right)^{\frac{3}{2}} }
 $$
 
