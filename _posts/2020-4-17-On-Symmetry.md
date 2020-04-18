@@ -42,8 +42,23 @@ $$ \sin{\theta} = \frac{a}{2 \sqrt{x^2 + y^2 + \left ( \frac{a}{2} \right)^2}} $
 
 Therefore,
 
+
 $$ 
 dF_z = dF \, \sin{\theta} = \left ( \frac{\sigma q}{4 \pi \epsilon_0} \frac{dx \, dy}{x^2 + y^2 + \left ( \frac{a}{2} \right)^2} \right) \left (\frac{a}{2 \sqrt{x^2 + y^2 + \left ( \frac{a}{2} \right)^2}} \right) = \frac{\sigma q a}{8 \pi \epsilon_0} \frac{dx \, dy}{\left ( x^2 + y^2 + \left ( \frac{a}{2} \right )^2 \right)^{\frac{3}{2}} }
 $$
+
+
+We now have to evaluate this integral, which may or may not be nasty. I personally like doing these kinds of integrals because I like trigonometry, but I know for a fact that this is an acquired taste, so feel free to skip to the next section if you don't want to see the mess this will become.
+
+
+$$
+    F_z = \frac{\sigma q a}{8 \pi \epsilon_0} \int \limits_{-a/2}^{a/2} \int \limits_{-a/2}^{a/2} \frac{dx \, dy}{\left ( x^2 + y^2 + \left ( \frac{a}{2} \right )^2 \right)^{\frac{3}{2}} }
+$$
+
+
+Instead of being normal people and plugging this into Mathematica or Wolfram Alpha, we are going to evaluate this monstrosity the old-fashioned way, by using an integral table.
+
+
+
 
 ## The Solution I Found 2 Minutes Later :')
