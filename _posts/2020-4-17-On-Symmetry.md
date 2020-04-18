@@ -56,7 +56,7 @@ $$
 $$
 
 
-Instead of being normal people and plugging this into Mathematica or Wolfram Alpha, we are going to evaluate this monstrosity the old-fashioned way, by using trig substitutions. We'll evaluate the x-part first.
+Instead of being normal people and plugging this into Mathematica or Wolfram Alpha, we are going to evaluate this monstrosity the old-fashioned way, by using trig substitutions (mainly because I'm bored and have no homework lol). We'll evaluate the x-part first.
 Define $r^2 = y^2 + \left (\frac{a}{2} \right)^2 $  We can write the x-part of the integral as
 
 
@@ -65,7 +65,24 @@ $$
 $$
 
 
-Let's use the standard substitution $x = r \tan{\phi}$. Then, $dx = r \sec^2 {\phi} d \phi $, so we rewrite this as
+Let's use the standard substitution $x = r \tan{\phi}$. Then, $dx = r \sec^2 {\phi} \, d \phi $, so we rewrite this as
+
+
+$$
+\int \frac{r \sec^2 {\phi}}{r^3 \sec^3 {\phi}} d \phi = \frac{1}{r^2} \int \cos{\phi} \, d \phi = \frac{1}{r^2} \sin{\phi} + C
+$$
+
+
+But $\sin{\phi} = \frac{1}{\sqrt{1 + \cot^2 {\phi}}} =  \frac{x}{\sqrt{x^2 + r^2}} = \frac{x}{\sqrt{x^2 + y^2 + \left (\frac{a}{2} \right)^2 }}$, so
+
+
+$$
+\int \frac{dx}{\left (x^2 + y^2 + \left (\frac{a}{2} \right)^2 \right) ^ {\frac{3}{2}} } = 
+$$
+
+
+
+
 
 
 ## The Solution I Found 2 Minutes Later :')
