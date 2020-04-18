@@ -142,3 +142,31 @@ F_z = \frac{\sigma q a^2}{8 \pi \epsilon_0} \int \limits_{-a/2}^{a/2} \frac{dy}{
 $$
 
 ## The Solution I Found 2 Minutes Later :')
+
+
+
+
+The force on the point charge by the square is equal to the force on the square by the point charge by Newton's Third Law, so we can compute
+
+
+$$
+F = \int dF = \int E \, dQ = \sigma \int E \, dA
+$$
+
+The integral here is easy! It's just the flux. Normally, we would have used a big integral like above, but we can consider the following: let the square be part of a larger cube of side length $a$, so that the charge is at the center of the cube. See the diagram below:
+
+
+![alt text][id]
+
+[id]: /images/diag2.png "Diagram 2"
+
+
+The flux through the whole cube must be $\frac{q}{\epsilon_0}$.
+The flux through each side must be the same *by symmetry* and *this* is the crucial step, as we couldn't solve the problem without doing the integrals above.
+
+Since there are 6 sides in a cube (*duh*), the flux through a side is $\frac{q}{6 \epsilon_0}$, we can conclude that
+
+
+$$
+F = \frac{\sigma q}{6 \epsilon_0}
+$$
