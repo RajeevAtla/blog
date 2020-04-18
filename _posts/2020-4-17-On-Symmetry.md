@@ -56,9 +56,16 @@ $$
 $$
 
 
-Instead of being normal people and plugging this into Mathematica or Wolfram Alpha, we are going to evaluate this monstrosity the old-fashioned way, by using an integral table.
+Instead of being normal people and plugging this into Mathematica or Wolfram Alpha, we are going to evaluate this monstrosity the old-fashioned way, by using trig substitutions. We'll evaluate the x-part first.
+Define $r^2 = y^2 + \left (\frac{a}{2} \right)^2 $  We can write the x-part of the integral as
 
 
+$$
+\int \frac{dx}{\left (x^2 + y^2 + \left (\frac{a}{2} \right)^2 \right) ^ {\frac{3}{2}} } =  \int \frac{dx}{\left (x^2 + r^2 \right) ^ {\frac{3}{2}} }
+$$
+
+
+Let's use the standard substitution $x = r \tan{\phi}$. Then, $dx = r \sec^2 {\phi} d \phi, so we rewrite this as
 
 
 ## The Solution I Found 2 Minutes Later :')
