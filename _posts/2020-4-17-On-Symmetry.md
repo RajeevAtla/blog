@@ -41,6 +41,7 @@ To find $dF_z$, we multiply $dF$ by $\sin{\theta}$. From the diagram, we know th
 $$ \sin{\theta} = \frac{a}{2 \sqrt{x^2 + y^2 + \left ( \frac{a}{2} \right)^2}} $$
 
 Therefore,
+
 $$ 
 dF_z = dF \, \sin{\theta} = \left ( \frac{\sigma q}{4 \pi \epsilon_0} \frac{dx \, dy}{x^2 + y^2 + \left ( \frac{a}{2} \right)^2} \right) \left (\frac{a}{2 \sqrt{x^2 + y^2 + \left ( \frac{a}{2} \right)^2}} \right) = \frac{\sigma q a}{8 \pi \epsilon_0} \frac{dx \, dy}{\left ( x^2 + y^2 + \left ( \frac{a}{2} \right )^2 \right)^{\frac{3}{2}} }
 $$
