@@ -102,7 +102,43 @@ $$
 \int \frac{dy}{\left ( y^2 + \left ( \frac{a}{2} \right)^2 \right) \sqrt{y^2 +  \frac{a^2}{2} }} = \frac{4}{a^2} \int \frac{\sec{\phi}}{2 \tan^2 \phi + 1}
 $$
 
+Normally, I'd give up and resort to Wolfram Alpha here, but notice what happens when you multiply the integrand by $\cos^2 \phi$. The result is
 
 
+$$
+\frac{4}{a^2} \int \frac{\cos \phi}{1 + \sin^2 \phi} d \phi
+$$
+
+
+The rest of the integral is actually quite easy. Let $u = \sin \phi$, so $du = \cos \phi \, d \phi$. Then,
+
+
+$$
+\frac{4}{a^2} \int \frac{du}{1 + u^2} = \frac{4}{a^2} \tan^-1 {u} = \frac{4}{a^2} \tan^-1 {(\sin{\phi})}
+$$
+
+
+Recall that $\sin \phi = \frac{\tan \phi}{\sqrt{1 + \tan^2 \phi}} = y \sqrt{\frac{2}{a^2 + 2y^2}}$. Finally,
+
+
+$$
+\int \frac{dy}{\left ( y^2 + \left ( \frac{a}{2} \right)^2 \right) \sqrt{y^2 +  \frac{a^2}{2} }} = \frac{4}{a^2} \tan^{-1} \left (y \sqrt{\frac{2}{a^2 + 2y^2}} \right)
+$$
+
+
+Taking the limits, we see that
+
+
+$$
+\int \limits_{- \frac{a}{2}}^{\frac{a}{2}} \frac{dy}{\left ( y^2 + \left ( \frac{a}{2} \right)^2 \right) \sqrt{y^2 +  \frac{a^2}{2} }} = \frac{4}{a^2} \left ( \tan^{-1} {\frac{\sqrt{3}}{3}} - \tan^{-1} {- \frac{\sqrt{3}}{3}} \right) = \frac{4 \pi }{3 a^2}
+$$
+
+
+Finally, we can see that the force is
+
+
+$$
+F_z = \frac{\sigma q a^2}{8 \pi \epsilon_0} \int \limits_{-a/2}^{a/2} \frac{dy}{\left ( y^2 + \left ( \frac{a}{2} \right)^2 \right) \sqrt{y^2 + 2 \left (\frac{a}{2} \right)^2 }} = \frac{\sigma q}{6 \epsilon_0}
+$$
 
 ## The Solution I Found 2 Minutes Later :')
