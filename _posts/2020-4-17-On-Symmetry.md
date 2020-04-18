@@ -65,7 +65,7 @@ $$
 $$
 
 
-Let's use the standard substitution $x = r \tan{\phi}$. Then, $dx = r \sec^2 {\phi} d \phi, so we rewrite this as
+Let's use the standard substitution $x = r \tan{\phi}$. Then, $dx = r \sec^2 {\phi} d \phi $, so we rewrite this as
 
 
 ## The Solution I Found 2 Minutes Later :')
