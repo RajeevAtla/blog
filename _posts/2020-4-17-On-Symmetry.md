@@ -77,11 +77,22 @@ But $\sin{\phi} = \frac{1}{\sqrt{1 + \cot^2 {\phi}}} =  \frac{x}{\sqrt{x^2 + r^2
 
 
 $$
-\int \frac{dx}{\left (x^2 + y^2 + \left (\frac{a}{2} \right)^2 \right) ^ {\frac{3}{2}} } = 
+\int \limits_{- \frac{a}{2}}^{\frac{a}{2}} \frac{dx}{\left (x^2 + y^2 + \left (\frac{a}{2} \right)^2 \right) ^ {\frac{3}{2}} } = \frac{x}{\left (y^2 + \left ( \frac{a}{2} \right)^2 \right) \sqrt{x^2 + y^2 + \left (\frac{a}{2} \right)^2}} \bigg \vert_{-a/2}^{a/2}
 $$
 
+Evaulating, we find
 
 
+$$
+\int \limits_{- \frac{a}{2}}^{\frac{a}{2}} \frac{dx}{\left (x^2 + y^2 + \left (\frac{a}{2} \right)^2 \right) ^ {\frac{3}{2}} } = \frac{a}{\left (y^2 + \left (\frac{a}{2} \right)^2 \right) \sqrt{y^2 + \frac{a^2}{2} } }
+$$
+
+Putting the result for this integral back into the original equation for the force,
+
+
+$$
+F_z = \frac{\sigma q a^2}{8 \pi \epsilon_0} \int \limits_{-a/2}^{a/2} \frac{dy}{\left ( y^2 + \left ( \frac{a}{2} \right)^2 \right) \sqrt{y^2 + \frac{a^2}{2}}}
+$$
 
 
 
