@@ -27,7 +27,7 @@ By Couloumb's Law, the force on the point charge due to this area element is
 
 $$ dF = \frac{\sigma q}{4 \pi \epsilon_0} \frac{dx \, dy}{x^2 + y^2 + \left ( \frac{a}{2} \right)^2} $$
 
-However, we can't just integrate this, but have to account for directions. We can see that the forces in the $\hat{\bm{x}}$ and $\hat{\bm{y}}$ both vanish, leaving only the force in the $\hat{\bm{z}}$ direction.
+However, we can't just integrate this, but have to account for directions. We can see that the forces proportional to $ \bm{\hat{x}}$ and $\bm{ \hat{y}}$ both vanish, leaving only the force in the $\hat{\bm{z}}$ direction.
 
 
 ## The Solution I Found 2 Minutes Later :')
