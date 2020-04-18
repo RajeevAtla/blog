@@ -91,7 +91,7 @@ Putting the result for this integral back into the original equation for the for
 
 
 $$
-F_z = \frac{\sigma q a^2}{8 \pi \epsilon_0} \int \limits_{-a/2}^{a/2} \frac{dy}{\left ( y^2 + \left ( \frac{a}{2} \right)^2 \right) \sqrt{y^2 + \frac{a^2}{2}}}
+F_z = \frac{\sigma q a^2}{8 \pi \epsilon_0} \int \limits_{-a/2}^{a/2} \frac{dy}{\left ( y^2 + \left ( \frac{a}{2} \right)^2 \right) \sqrt{y^2 + 2 \left (\frac{a}{2} \right)^2 }}
 $$
 
 
