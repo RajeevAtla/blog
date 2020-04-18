@@ -25,6 +25,7 @@ Consider an area element $dA = dx \, dy$ located at $(x,y,0)$.
 ![alt text][id]
 
 [id]: /images/siuxnbrp (1).png "Diagram 1"
+
 (Produced using Asymptote)
 
 The total charge on this element, since the surface charge density is uniform, is $ \sigma \, dx \, dy$.
