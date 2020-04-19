@@ -22,9 +22,9 @@ We begin by assigning coordinates across the square.
 Let the center of the square lie at the origin and let the square lie in the $ xy $ -plane.
 Consider an area element $dA = dx \, dy$ located at $(x,y,0)$.
 
-![alt text][id]
+![Diagram 1][id]
 
-[id]: images/diag1/diag1.png "Diagram 1"
+[id]: {{ site.url }}/assets/images/diag1/diag1.png "Diagram 1"
 
 (Produced using Asymptote)
 
@@ -157,9 +157,9 @@ $$
 The integral here is easy! It's just the flux. Normally, we would have used a big integral like above, but we can consider the following: let the square be part of a larger cube of side length $a$, so that the charge is at the center of the cube. See the diagram below:
 
 
-![alt text][id]
+![Diagram 2][id]
 
-[id]: images/diag2/diag2.png "Diagram 2"
+[id]: {{ site.url }}/assets/images/diag2/diag2.png "Diagram 2"
 
 
 The flux through the whole cube must be $\frac{q}{\epsilon_0}$.
