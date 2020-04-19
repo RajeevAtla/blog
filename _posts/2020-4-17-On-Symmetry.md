@@ -115,7 +115,7 @@ The rest of the integral is actually quite easy. Let $u = \sin \phi$, so $du = \
 
 
 $$
-\frac{4}{a^2} \int \frac{du}{1 + u^2} = \frac{4}{a^2} \tan^-1 {u} = \frac{4}{a^2} \tan^-1 {(\sin{\phi})}
+\frac{4}{a^2} \int \frac{du}{1 + u^2} = \frac{4}{a^2} \tan^{-1} {u} = \frac{4}{a^2} \tan^{-1} {(\sin{\phi})}
 $$
 
 
