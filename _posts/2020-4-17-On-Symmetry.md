@@ -131,7 +131,7 @@ Taking the limits, we see that
 
 
 $$
-\int \limits_{- \frac{a}{2}}^{\frac{a}{2}} \frac{dy}{\left ( y^2 + \left ( \frac{a}{2} \right)^2 \right) \sqrt{y^2 +  \frac{a^2}{2} }} = \frac{4}{a^2} \left ( \tan^{-1} {\frac{\sqrt{3}}{3}} - \tan^{-1} {- \frac{\sqrt{3}}{3}} \right) = \frac{4 \pi }{3 a^2}
+\int \limits_{- \frac{a}{2}}^{\frac{a}{2}} \frac{dy}{\left ( y^2 + \left ( \frac{a}{2} \right)^2 \right) \sqrt{y^2 +  \frac{a^2}{2} }} = \frac{4}{a^2} \left ( \tan^{-1} \left ( {\frac{\sqrt{3}}{3}} \right) - \tan^{-1} \left ( {- \frac{\sqrt{3}}{3}} \right) = \frac{4 \pi }{3 a^2}
 $$
 
 
