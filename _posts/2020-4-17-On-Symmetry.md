@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: "The True Value of Symmetry"
+title: "On Symmetry"
 categories: misc
 ---
 
