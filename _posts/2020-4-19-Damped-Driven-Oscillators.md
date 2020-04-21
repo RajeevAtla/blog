@@ -64,10 +64,7 @@ A \left (- m \omega^2 + i b \omega + k \right) = F_0 \Rightarrow A = \frac{F_0}{
 $$
 
 
-This is a complex number ...
-(._.) ( l: ) ( .-. ) ( :l ) (._.)
-
-
+This is a complex number (ಠ╭╮ಠ)
 But this isn't the end of the world. But the spice level just went up to *hot!*. Anyways, remember from math class (I certainly don't, I was probably asleep or on (╯°□°)╯︵ ʞooqǝɔɐɟ ) that a complex number can be written as $A = |A| e ^ {i \phi}$, where $|A|$ is the phase and $\phi$ is the phase. We can multiply both the numerator and denominator of $A$ by the denominator's conjugate and separate componenets to find
 
 
