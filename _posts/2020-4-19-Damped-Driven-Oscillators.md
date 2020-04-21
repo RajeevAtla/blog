@@ -60,7 +60,7 @@ Substituting this into the equation of motion we found earlier and cancelling fa
 
 
 $$
-A \left (- m \omega^2 + i b \omega + k \right) = F_0 \Right arrow A = \frac{F_0}{- m \omega^2 + k + ib}
+A \left (- m \omega^2 + i b \omega + k \right) = F_0 \Rightarrow A = \frac{F_0}{- m \omega^2 + k + ib}
 $$
 
 
