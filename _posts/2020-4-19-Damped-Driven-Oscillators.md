@@ -13,7 +13,7 @@ Regardless of the cause, experimental studies show that the force is proportiona
 
 $F = -bv$
 
-We could stop here and start to analyze the system, but for the sake of spiciness, we move on to something more. Remember your old friend Throckmorton? Well yeah, for the sake of being annoying, he's screwing with your experiment and moving the place the spring is rooted in. But he is still your friend, so instead of moving it around in a random way, he moves the support exactly sinusoidally, and avoids having you look up integrals (very fun, but an acquired taste). Here, Throckmorton also helps out your grades in your physics class by making you learn some new physics.
+We could stop here and start to analyze the system, but for the sake of spiciness, we move on to something more. Remember your old friend Throckmorton? Well yeah, for the sake of being annoying, he's screwing with your experiment and moving the place the spring is rooted in. But he is still your friend, so instead of moving it around in a random way, he moves the support exactly sinusoidally, and avoids having you look up integrals (very fun, but an acquired taste). Here, Throckmorton also helps out your grades in your physics class by making you learn some new physics, so be semi-appreciative of him, but only sometimes! ༼ つ  ͡° ͜ʖ ͡° ༽つ
 
 Anyway, let the amplitude of the oscillations of the force he applies be $F_0$. To make the mathematics easier, we write the force he exerts as a complex exponential:
 
@@ -23,8 +23,7 @@ F(t) = F_0 e^{i \omega t}
 $$
 
 
-But the astute mathematician in you will realize that there is an imaginary part, but we'll take care of that later, so don't worry about it for now.
-And there is still the spring, so the final force is $F=-kx$. Using F=ma, we can write the equation of motion as
+But the astute mathematician in you will realize that there is an imaginary part, but we'll take care of that later, so don't worry about it for now. And there is still the spring, so the final force is $F=-kx$. Using F=ma, we can write the equation of motion as
 
 
 $$
@@ -64,8 +63,10 @@ $$
 A \left (- m \omega^2 + i b \omega + k \right) = F_0 \Right arrow A = \frac{F_0}{- m \omega^2 + k + ib}
 $$
 
+
 This is a complex number ...
 (._.) ( l: ) ( .-. ) ( :l ) (._.)
+
 
 But this isn't the end of the world. But the spice level just went up to *hot!*. Anyways, remember from math class (I certainly don't, I was probably asleep or on (╯°□°)╯︵ ʞooqǝɔɐɟ ) that a complex number can be written as $A = |A| e ^ {i \phi}$, where $|A|$ is the phase and $\phi$ is the phase. We can multiply both the numerator and denominator of $A$ by the denominator's conjugate and separate componenets to find
 
@@ -91,10 +92,12 @@ $$
 And we're done.
 It can be seen that the maximum amplitude is achieved when $\omega = \sqrt{\frac{k}{m}}$. Recognize this from the boring lessson you managed to sleep through? Yeah, that's right! Its the frequency of a block on a spring!
 
-༼ ºل͟º ༼ ºل͟º ༼ ºل͟º ༽ ºل͟º ༽ ºل͟º ༽
 
 ༼ ºل͟º ༼ ºل͟º ༼ ºل͟º ༽ ºل͟º ༽ ºل͟º ༽
 
 ༼ ºل͟º ༼ ºل͟º ༼ ºل͟º ༽ ºل͟º ༽ ºل͟º ༽
+
+༼ ºل͟º ༼ ºل͟º ༼ ºل͟º ༽ ºل͟º ༽ ºل͟º ༽
+
 
 (Ending on a cliffhanger lol)
