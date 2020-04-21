@@ -51,7 +51,7 @@ Gauss's law in differential form is
 
 
 $$
-\del \dot E = \frac{\rho}{\epsilon_0}
+\nabla \cdot E = \frac{\rho}{\epsilon_0}
 $$
 
 
@@ -59,7 +59,7 @@ In Cartesian coordinates, the divergence of an electrical field $E = E_x \hat{x}
 
 
 $$
-\del \dot E = \frac{\partial E_x}{\partial x} + \frac{\partial E_y}{\partial y} + \frac{\partial E_z}{\partial z}
+\nabla \cdot E = \frac{\partial E_x}{\partial x} + \frac{\partial E_y}{\partial y} + \frac{\partial E_z}{\partial z}
 $$
 
 We can easily see that the electrical field can be written as
