@@ -130,5 +130,17 @@ $$
 \end{pmatrix}
 $$
 
-We will graph this (because we can/want to [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅] ) using Asymptote.
+To find the displacement from the origin, we integrate (to avoid integrating by parts, convert ) this vector with respect to time, and find
+
+$$
+\boldsymbol{r} = \frac{v_0}{\alpha^2 + q^2 B^2}
+\begin{pmatrix}
+\frac{qB}{m} - \frac{\alpha}{m} e^{- \frac{\alpha}{m} t} \sin \left (\frac{qB}{m} t \right) - \frac{qB}{m} e^{- \frac{\alpha}{m} t} \cos \left (\frac{qB}{m} t \right) \\
+\frac{\alpha}{m} - \frac{\alpha}{m} e^{- \frac{\alpha}{m} t} \cos \left (\frac{qB}{m} t \right) + \frac{qB}{m} e^{- \frac{\alpha}{m} t} \sin \left (\frac{qB}{m} t \right)
+\end{pmatrix}
+$$
+
+We graph this using Asymptote.
+
+![Diagram 3]({{ site.url }}/assets/images/diagram3.png "Diagram 3")
 
