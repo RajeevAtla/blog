@@ -15,7 +15,7 @@ Find the final position of the particle if it is also subject to a damping force
 
 ## My Solution
 
-First off, a disclaimer: this won't be the most elegant solution. As always, there are multiple ways to do this problem.
+First off, a disclaimer: this won't be the most elegant solution, but the most mathematically satisfying one. As always, there are multiple ways to do this problem. The most efficient way is to guess some sinusoidal motion with damping, and solving for the frequencies and coeffiecients.
 
 Let's start by finding the magnetic force. Denote the velocity vector by $\boldsymbol{v} = v_x \boldsymbol{\hat{x}} + v_y \boldsymbol{\hat{y}} + v_z \boldsymbol{\hat{z}}$. Magnetic force is given by $\boldsymbol{F} = q \boldsymbol{v} \times \boldsymbol{B}$.
 Evaulating the cross products, or using the right hand rule, we can see that the force in the $\boldsymbol{\hat{z}}$-direction vanishes.
@@ -67,3 +67,68 @@ A_2 \\
 0 \\
 \end{pmatrix}
 $$
+
+In order to have nontrivial values for $A_1$ and $A_2$, we require that the left matrix be non-invertible. 
+One way it can be non-invertible is if the determinant is 0. Setting it equal to $0$ and solving, we find two solutions, which are the eigenvalues of the matrix, which we denote $\lambda_1$ and $\lambda_2$.
+
+
+$$
+\lambda_1 = -\frac{\alpha}{m} + i \frac{qB}{m}
+$$
+
+
+$$
+\lambda_2 = - \frac{\alpha}{m} - i \frac{qB}{m}
+$$
+
+
+The eigenvectors can be found by substituting the eigenvalues into the matrix and using Gaussian elimination to solve for $A_1$ and $A_2$. Let the respective eigenvectors be $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$.
+
+
+$$
+\boldsymbol{e}_1 = 
+\begin{pmatrix}
+- i \\
+1 \\
+\end{pmatrix}
+$$
+
+
+$$
+\boldsymbol{e}_2 = 
+\begin{pmatrix}
+i \\
+1 \\
+\end{pmatrix}
+$$
+
+Now is the fun (acquired taste ¯\_(ツ)_/¯) part.
+Using the eigenvalues and eigenvectors we solved for, we can say that the general solution for the velocity will be in the form
+
+
+$$
+\boldsymbol{v} (t) = C_1 
+\begin{pmatrix}
+- i \\
+1 \\
+\end{pmatrix}
+e^{\left (- \frac{\alpha}{m} + i \frac{qB}{m} \right)t} + C_2
+\begin{pmatrix}
+i \\
+1 \\
+\end{pmatrix}
+e^{\left (- \frac{\alpha}{m} - i \frac{qB}{m} \right)t}
+$$
+
+We can solve for the initial conditions to find that
+
+$$
+\boldsymbol{v} (t) = v_0 e^{- \frac{\alpha}{m} t}
+\begin{pmatrix}
+\sin{\left (\frac{qB}{m} t\right)} \\
+\cos{\left (\frac{qB}{m} t\right)} \\
+\end{pmatrix}
+$$
+
+We will graph this (because we can/want to [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅] ) using Asymptote.
+
