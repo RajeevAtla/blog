@@ -130,7 +130,7 @@ $$
 \end{pmatrix}
 $$
 
-To find the displacement from the origin, we integrate (to avoid integrating by parts, convert ) this vector with respect to time, and find
+To find the displacement from the origin, we integrate (to avoid integrating by parts, convert both components into complex exponentials) this vector with respect to time, and find
 
 $$
 \boldsymbol{r} = \frac{v_0}{\alpha^2 + q^2 B^2}
