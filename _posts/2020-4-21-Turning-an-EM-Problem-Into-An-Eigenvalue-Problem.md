@@ -140,7 +140,13 @@ $$
 \end{pmatrix}
 $$
 
-We graph this using Asymptote.
+We graph this using Asymptote (because we can).
 
 ![Diagram 3]({{ site.url }}/assets/images/diagram3.png "Diagram 3")
 
+We see that the final position of the particle is at
+
+
+$$
+(x, y) = \frac{v_0}{\left (\frac{\alpha}{m} \right)^2 + \left (\frac{qB}{m} \right)^2 } \left (\frac{qB}{m}, \frac{\alpha}{m} \right)
+$$
