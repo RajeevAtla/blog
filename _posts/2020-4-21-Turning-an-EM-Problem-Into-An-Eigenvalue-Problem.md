@@ -36,4 +36,34 @@ $$
 \dot{v_y} = - \frac{qB}{m} v_x - \frac{\alpha}{m} v_y
 $$
 
-This is a system of differential equations, so we use the method of normal modes, arising from linear algebra. We start by guessing a solution in the form of $ \boldsymbol{v} = \begin{pmatrix} A \\ B \\ \end{pmatrix} e^{\lambda t}$. 
+This is a system of differential equations, so we use the method of normal modes, arising from linear algebra. We start by guessing a solution in the form of 
+
+
+$$ 
+\boldsymbol{v} = 
+\begin{pmatrix} 
+A_1 \\ 
+A_2 \\ 
+\end{pmatrix} 
+e^{\lambda t}
+$$ 
+
+
+Subsituting, we find the following matrix equation:
+
+
+$$
+\begin{pmatrix}
+\lambda + \frac{\alpha}{m} & - \frac{qB}{m} \\
+\frac{qB}{m} & \lambda + \frac{\alpha}{m} \\
+\end{pmatrix}
+\begin{pmatrix}
+A_1 \\
+A_2 \\
+\end{pmatrix}
+=
+\begin{pmatrix}
+0 \\
+0 \\
+\end{pmatrix}
+$$
