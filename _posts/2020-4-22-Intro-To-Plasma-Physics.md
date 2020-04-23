@@ -61,3 +61,11 @@ $$
 
 We graph the visual representation using Asymptote:
 ![Diagram 4]({{ site.url }}/assets/images/diagram4.png "Diagram 4")
+
+As you can see, as temperature is raised, the amount of ionization increases rapidly, eventually making $n_i = n_n$.
+That's why plasmas can't occur naturally on Earth, as life couldn't easily coexist with the plasma.
+
+### Physical Interpretation
+
+We don't want to overuse the Saha equation, as it is a very rough approximation.
+Moroever, 
