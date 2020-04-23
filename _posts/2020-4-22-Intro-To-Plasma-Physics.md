@@ -50,9 +50,14 @@ $$
 
 
 Recalling that nitrogen makes up the highest amount in the Earth's atmosphere, we can approximate the atmosphere as made entirely of nitrogen, which has an ionization energy of $14.5$ eV.
+For air at room temperature, $n_n$ is approximately $3 \times 10^{25} \, \text{m}^{-3}$.
 Room temperature is around $300$ Kelvin, so by the Saha equation, we can estimate that the fractional ionization in the air we breath is extremely low:
 
 
 $$
 \frac{n_i}{n_n} \sim 10^{-122}
 $$
+
+
+We graph the visual representation using Asymptote:
+![Diagram 4]({{ site.url }}/assets/images/diagram4.png "Diagram 4")
