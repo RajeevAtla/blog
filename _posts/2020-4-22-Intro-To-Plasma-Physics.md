@@ -143,9 +143,84 @@ That's because the density of electrons inside a fluorescent bulb isn't that hig
 Therefore, the amount of heat transferred to the bulb's exterior is also rather low, as the electrons don't strike the wall that much.
 Many plasma laboratories deal with temperatures on the order of $10^6$ K, but at rather low densities, so the heating of the walls isn't really a concern, as long as an appropriate material is chosen.
 
-## 1.4: Debye Shielding
+## 1.4 Debye Shielding
 Consider what happens when we try to put an electric field in a plasma, by inserting two conducting balls connected to a battery.
-Since the electrons and ions in the plasma are mobile, they assemble around these balls.
+Since the electrons and ions in the plasma are mobile, they assemble around these balls in a cloud.
 Specifically, the electrons go to the cathode and the ions go to the anode.
 This effectively cancels out the field as sufficiently large distances from the balls.
-This phenomenon is known as Debye shielding.
+If there was no thermal motion, then there would be just as many charges in the cloud as in the ball, and no electric field would be present in the plasma outside of the clouds.
+On the other hand, if there is thermal motion, then at the edge of the cloud, the ions and electrons will be able to be free.
+Therefore, potentials on the order of $\frac{kT}{e}$ will leak into the plasma and cause an electric field to exist there.
+
+Next, we try to compute the approximate thickness of this cloud of charge.
+Imagine that the potential on the surface of the ball is held at $\phi_0$ by the battery and is unaffected by the thermal motion of the particles.
+We want to compute $\phi(r)$.
+Assume that $\frac{m_i}{m_e} = \infty$, so the ions don't move.
+Using the Boltzmann distribution for a potential energy $q \phi$, we see that the distribution is proportional to
+
+$$
+f(v) \propto \exp{(- \frac{mv^2}{kT} - \frac{q \phi}{kT})}
+$$
+
+
+Integrating over $v$, we find that the density of electrons $n_e$ is, recalling this distribution is also a Boltzmann distribution, with maximum density $n_{\infty}$
+
+
+$$
+n_e = n_{\infty} \exp{-\frac{e \phi}{kT}}
+$$
+
+
+This means that Poisson's equation is, in the region where the thermal energy is higher than the electrostatic
+
+
+$$
+\frac{\partial^2 \phi}{\partial r^2} = \frac{e n_{\infty}}{\epsilon_0} \left (e^{\frac{e \phi}{kT}} - 1 \right) \approx \frac{n_{\infty} e^2}{\epsilon_0 kT } \phi
+$$
+
+Solving after defining the Debye length as $\lambda_D = \sqrt{\frac{\epsilon_0 kT}{e^2 n_{\infty}}}$, we find that
+
+
+$$
+\phi(r) = \phi_0 \exp{- \frac{r}{\lambda_D}}
+$$
+
+
+The Debye length is the measure of shielding distance that we were looking for.
+As density increases, so does $\lambda_D$, as we expect.
+Furthermore, it decreases with temperature, as more thermal energy means greater ability to break free of the potential applied by the battery.
+Finally, it is electrons only that are able to do the shielding, as they are much more mobile (we have assumed that the ions don't move at all).
+
+### Quasineutrality
+If the dimensions $L$ of the system are much larger than the Debye length $\lambda_D$ of the plasma, then whatever local charge concentrations arise, they can be shielded using the Debye effect, leaving most of the remaining plasma free from electric fields. One condition for an ionized gas to be a plasma to be classified as a plasma is $\lambda_D \ll L$.
+
+## 1.5 The Plasma Parameter
+Consider a sphere that has a radius of the Debye length.
+The number of particles $N_D$ in this sphere is
+
+
+$$
+N_D = \frac{4}{3} \pi n \lambda_D^3
+$$
+This is an estimate for the number of particles that is in one of the Debye clouds. In order for the cloud-forming behavior to be valid, we must have enough particles, so
+
+
+$$
+N_D \gg 1
+$$
+
+## 1.6 Criteria for Plasmas
+### Third Condition
+The third condition for being a plasma has to do with collisions.
+In order to be *weird* like a plasma, we need an ionized gas to not collide frequently.
+If $\omega$ is the frquency of typical plasma oscillations and $\tau$ is the mean free time between oscillations, then we require
+
+
+$$
+\omega \tau > 1
+$$
+
+## 1.7 Application of Plasma Physics
+Plasma is characterized by two things: $n$, and $kT$.
+$n$ can vary from $10^6$ to $10^{34}$ $\text{m}^{-3}$.
+$kT$ can vary from 0.1 to $10^6$ eV.
