@@ -68,4 +68,18 @@ That's why plasmas can't occur naturally on Earth, as life couldn't easily coexi
 ### Physical Interpretation
 
 We don't want to overuse the Saha equation, as it is a very rough approximation.
-Moroever, 
+However, we do want to emphasize the physical principles behind it.
+From statistical mechanics, the atoms in a gas have a spread of thermal energies.
+Intuitively, an atom with more energy will have a higher chance of knocking out an electron when colliding with another atom.
+Moreover, the atoms will obviously collide with more force.
+
+## 1.2 Definition of Plasma
+
+Not all ionized gases can be called plasmas, as there is always some degree of ionization in a gas, no matter what temperature.
+Therefore, its nice to have a definition to rely on:
+
+*A plasma is a quasineutral gas of charged and neutral particles which exhibits collective behavior.* (Chen 1.2)
+
+We now discuss collective behavior.
+In a plasma, there are charged particles: positive ions and negative electrons.
+These charges produce electric fields and their movement produces magnetic fields.
