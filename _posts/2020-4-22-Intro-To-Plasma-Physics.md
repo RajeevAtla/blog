@@ -141,7 +141,7 @@ For example, the electron temperature inside a fluorescent light bulb is around 
 When you touch it, it doesn't really feel that hot.
 That's because the density of electrons inside a fluorescent bulb isn't that high, especially not compared to a gas at atmospheric pressure.
 Therefore, the amount of heat transferred to the bulb's exterior is also rather low, as the electrons don't strike the wall that much.
-Many plasma laboratories deal with temperatures on the order of $10^6$ K, but at rather low densities, so the heating of the walls isn't really a concern, as long as an appropriate material is chosen.
+Many plasma laboratories deal with temperatures on the order of $10^6$ K, but their particles are at rather low densities, so the heating of the walls isn't really a concern, as long as an appropriate material is chosen.
 
 ## 1.4 Debye Shielding
 Now we consider Debye shielding, named after Dutch-American physicist and physical chemist (he won the Nobel Prize in Chemistry in 1936 for his work on dipole moments and x-ray diffraction) Peter Joseph William Debye.
