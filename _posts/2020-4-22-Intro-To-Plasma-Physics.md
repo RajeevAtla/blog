@@ -83,3 +83,69 @@ Therefore, its nice to have a definition to rely on:
 We now discuss collective behavior.
 In a plasma, there are charged particles: positive ions and negative electrons.
 These charges produce electric fields and their movement produces magnetic fields.
+
+Now, we consider the effect of two differently charged regions of plasma (separated by a distance $r$) on each other. Each exerts a force proportional to $1/r^2$.
+However, the solid angle inscribed increases proportionally to $r^3$, so the force actually increases as you go further out, as long as you stay within a region that contains plasma.
+
+In collisionless plasmas, the electromagnetic forces are much larger than the collisions between atoms, so the collision forces can be neglected completely.
+
+By collective behavior, we mean the following: consider a portion of plasma embedded in a larger portion of plasma. From the long-range electromagnetic forces we have discussed above, the forces on the atoms in the portion depend not only on the behavior of the portion, but also the atoms within the larger portion. That is, the behavior of an atom in plasma doesn't just depend on its local conditions, but also its global conditions.
+
+## 1.3 Concept of Temperature
+Its useful to review our concept of temperature.
+Consider a gas in thermal equilibrium, which will have particles of all velocities.
+The probability of having a certain velocity is proportional to the Boltzmann distribution:
+
+
+$$
+f(v) \propto \exp(- \frac{mv^2}{2kT})
+$$
+
+
+Where $k$ is the Boltzmann constant and $T$ is the temperature of the gas.
+We can see that the higher the temperature, the more likely it is that velocities of the particles are higher.
+It can be shown from this distribution that for $f$ degrees of freedom, the average energy is
+
+
+$$
+\langle E \rangle = \frac{f}{2} kT
+$$
+
+
+Since energy and temperature are so closely related, it is customary in plasma physics to give temperatures in units of energy.
+To convert, we suppose that $E=kT$ to avoid confusion on the value of $f$.
+Therefore, if we consider 1 eV, which is $1.6 \times 10^{-19}$ J, this corresponds to
+
+
+$$
+T = \frac{1.6 \times 10^{-19} \, \text{J}}{1.38 \times 10^{-23} \, \frac{\text{J}}{\text{K}}} = 11,600 \text{K}
+$$
+
+Therefore, 1eV corresponds to 11,600 K.
+By a 2eV plasma, we mean that $kT$ = 2 eV, or $\langle E \rangle = $ 3 eV in 3 dimensions.
+
+### Interesting Phenomena
+It is possible that a plasma can have more than one temperature (and by the work above, energy) at once.
+Often, the ions and electrons have separate velocity distributions, with different temperatures $T_i$ and $T_e$.
+This usually happens because because the collision rates of the ions and electrons are different (the electrons have much less mass and are much smaller).
+Each species can be in its own thermal equilibrium.
+
+Moreover, when there is a magnetic field applied can cause multiple temperatures to occur.
+That's because the Lorentz force has components both parallel and perpendicular to the magnetic field, so the velocity must have components perpendicular and parallel to the magentic field.
+This leads to Boltzmann distributions with temperatures $T_{\perp}$ $T_{\parallel}$.
+
+### Misconceptions
+Finally, people need to know that high temperature $\neq$ a lot of heat.
+This is due to heat capacities and density changes.
+For example, the electron temperature inside a fluorescent light bulb is around 20,000 K.
+When you touch it, it doesn't really feel that hot.
+That's because the density of electrons inside a fluorescent bulb isn't that high, especially not compared to a gas at atmospheric pressure.
+Therefore, the amount of heat transferred to the bulb's exterior is also rather low, as the electrons don't strike the wall that much.
+Many plasma laboratories deal with temperatures on the order of $10^6$ K, but at rather low densities, so the heating of the walls isn't really a concern, as long as an appropriate material is chosen.
+
+## 1.4: Debye Shielding
+Consider what happens when we try to put an electric field in a plasma, by inserting two conducting balls connected to a battery.
+Since the electrons and ions in the plasma are mobile, they assemble around these balls.
+Specifically, the electrons go to the cathode and the ions go to the anode.
+This effectively cancels out the field as sufficiently large distances from the balls.
+This phenomenon is known as Debye shielding.
