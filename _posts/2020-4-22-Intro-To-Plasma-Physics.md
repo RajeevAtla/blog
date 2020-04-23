@@ -132,7 +132,7 @@ Each species can be in its own thermal equilibrium.
 
 Moreover, when there is a magnetic field applied can cause multiple temperatures to occur.
 That's because the Lorentz force has components both parallel and perpendicular to the magnetic field, so the velocity must have components perpendicular and parallel to the magentic field.
-This leads to Boltzmann distributions with temperatures $T_{\perp}$ $T_{\parallel}$.
+This leads to Boltzmann distributions with temperatures $T_{\perp}$ and $T_{\parallel}$.
 
 ### Misconceptions
 Finally, people need to know that high temperature $\neq$ a lot of heat.
