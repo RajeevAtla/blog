@@ -144,6 +144,7 @@ Therefore, the amount of heat transferred to the bulb's exterior is also rather 
 Many plasma laboratories deal with temperatures on the order of $10^6$ K, but at rather low densities, so the heating of the walls isn't really a concern, as long as an appropriate material is chosen.
 
 ## 1.4 Debye Shielding
+Now we consider Debye shielding, named after Dutch-American physicist and physical chemist (he won the Nobel Prize in Chemistry in 1936 for his work on dipole moments and x-ray diffraction) Peter Joseph William Debye.
 Consider what happens when we try to put an electric field in a plasma, by inserting two conducting balls connected to a battery.
 Since the electrons and ions in the plasma are mobile, they assemble around these balls in a cloud.
 Specifically, the electrons go to the cathode and the ions go to the anode.
