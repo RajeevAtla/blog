@@ -6,11 +6,11 @@ categories: Plasma Physics,  misc
 ---
 These are my notes for Chapter 1 of *Introduction to Plasma Physics and Controlled Fusion* by Francis F. Chen.
 
-MLA Citation - Chen, Francis F. *Introduction to Plasma Physics and Controlled Fusion*. 3rd ed., Springer International Publishing Switzerland, 2016, *Springer Link*, [link.springer.com/content/pdf/10.1007%2F978-3-319-22309-4.pdf]( https://link.springer.com/content/pdf/10.1007%2F978-3-319-22309-4.pdf. "Link to Book").
+MLA Citation - Chen, Francis F. *Introduction to Plasma Physics and Controlled Fusion*. 3rd ed., Springer International Publishing Switzerland, 2016, *Springer Link*, [link.springer.com/content/pdf/10.1007%2F978-3-319-22309-4.pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-22309-4.pdf.)
 
 ## 1.1 Occurence of Plasmas in Nature
 ### The Nature of the Universe
-According to NASA's [WMAP](https://wmap.gsfc.nasa.gov/universe/uni_matter.html "WMAP"), the universe is composed primarily of dark energy (71.4 %).
+According to NASA's [WMAP](https://wmap.gsfc.nasa.gov/universe/uni_matter.html), the universe is composed primarily of dark energy (71.4 %).
 Following that is dark matter (24 %).
 Both last and least is regular matter (4.6 %).
 
