@@ -171,7 +171,7 @@ n_e = n_{\infty} \exp{-\frac{e \phi}{kT}}
 $$
 
 
-This means that Poisson's equation is, in the region where the thermal energy is higher than the electrostatic
+This means that Poisson's equation is, in the region where the thermal energy is much higher than the electrostatic
 
 
 $$
@@ -212,13 +212,33 @@ $$
 ## 1.6 Criteria for Plasmas
 ### Third Condition
 The third condition for being a plasma has to do with collisions.
-In order to be *weird* like a plasma, we need an ionized gas to not collide frequently.
+In order to be *weird* like a plasma, we need an ionized gas to not collide frequently, or else it behaves like a normal fluid, and electromagnetic interactions are insignificant compared to collisions.
 If $\omega$ is the frquency of typical plasma oscillations and $\tau$ is the mean free time between oscillations, then we require
 
 
 $$
 \omega \tau > 1
 $$
+
+
+### Putting it All Together
+The three conditions arise
+
+
+$$
+\lambda_D \ll 1
+$$
+
+
+$$
+\omega \tau > 1
+$$
+
+
+$$
+\omega \tau > 1
+$$
+
 
 ## 1.7 Application of Plasma Physics
 Plasma is characterized by two things: $n$, and $kT$.
