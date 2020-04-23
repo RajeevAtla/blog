@@ -238,9 +238,3 @@ $$
 $$
 \omega \tau > 1
 $$
-
-
-## 1.7 Application of Plasma Physics
-Plasma is characterized by two things: $n$, and $kT$.
-$n$ can vary from $10^6$ to $10^{34}$ $\text{m}^{-3}$.
-$kT$ can vary from 0.1 to $10^6$ eV.
