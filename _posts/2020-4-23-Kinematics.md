@@ -15,7 +15,7 @@ It's important to make a diagram in these kinds of problems, as you can easily g
 We therefore draw a diagram using Asymptote, mostly because it looks nice.
 This diagram shows the system at some point in time $t$.
 
-
+![Diagram 5]({{ site.url }}/assets/diagram5.png "Diagram 5")
 
 We also need to do some geometry (see next section).
 Let $O$ be the origin.
