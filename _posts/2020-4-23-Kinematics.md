@@ -13,6 +13,22 @@ A rabbit begins at the origin and a fox begins at (0, -a). At $t=0$, the rabbit 
 ## Diagram
 It's important to make a diagram in these kinds of problems, as you can easily get lost in the coordinates, directions, etc.
 We therefore draw a diagram using Asymptote, mostly because it looks nice.
+This diagram shows the system at some point in time $t$.
+
+
+
+We also need to do some geometry (see next section).
+Let $O$ be the origin.
+Let $A$ be the position of the fox.
+Let $B$ be the position of the rabbit.
+Let $C$ be the intersection of the velocity vectors when extended outwards (this isn't really physically relevant, but we use it later).
+Let $D$ be the interesection of the horizontal and vertical components of the fox's velocity.
 
 ## Some Geometry
-We start with some angle-chasing. Let $\angle ABC \equiv \theta$.
+We start with some angle-chasing. 
+Let $\angle ABC \equiv \theta$.
+By definition of components, $\overline{DB} \perp \overline{AD}$, so $\angle ABD = \theta - \frac{\pi}{2}$.
+By complementary angles, $\angle BAD = \frac{\pi}{2} - \angle ABD = \pi - \theta $
+Let $\alpha \equiv \pi - \theta$.
+Let $r \equiv \overline{AB}$, 
+
