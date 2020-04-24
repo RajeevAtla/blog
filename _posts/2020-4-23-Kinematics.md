@@ -31,4 +31,30 @@ By definition of components, $\overline{DB} \perp \overline{AD}$, so $\angle ABD
 By complementary angles, $\angle BAD = \frac{\pi}{2} - \angle ABD = \pi - \theta $
 Let $\alpha \equiv \pi - \theta$.
 Let $r \equiv \overline{AB}$ and $x \equiv \overline{AD}$.
-From trigonometry, $x = r \cos{\alpha} = - r \cos{\theta}$
+
+## Critical Lemma
+We seek to show that throughout the motion, $r+x$ is conserved.
+
+Consider the frame of the rabbit.
+In this frame, the fox's horizontal velocity is $ v \cos{\theta}$.
+Therefore,
+
+
+$$\frac{dx}{dt} = v \cos{\theta} - v$$
+
+
+Now consider the frame of the fox.
+In this frame, the rabbit is running away at speed $- v \cos{\theta}$, so
+
+
+$$ \frac{dr}{dt} = v - v \cos{\theta} $$
+
+Adding the two, we see that
+$\frac{d}{dt} \left (r+x \right) = 0$
+
+Implying that the quantity is conserved.
+
+## Solution
+Initially, $r+x = a$. After a time $t \gg \frac{a}{v}$ has passed, there is effectively no vertical distance, so $r = x = \frac{a}{2}$.
+
+Notice that we used a conservation law here. Usually, we would have used a standard conservation law, like conservation of energy or momentum, but instead, we madee our own conservation law. ༼ʘ̚ل͜ʘ̚༽ ᕦ(ò_óˇ)ᕤJust like mathematics, creativity in physics helps a lot. Coming up tomorrow: Chapter 2 of Plasma Physics! (͡ ͡° ͜ つ ͡͡°)
