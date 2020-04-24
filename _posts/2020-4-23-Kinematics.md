@@ -15,14 +15,14 @@ It's important to make a diagram in these kinds of problems, as you can easily g
 We therefore draw a diagram using Asymptote, mostly because it looks nice.
 This diagram shows the system at some point in time $t$.
 
-![Diagram 5]({{ site.url }}/assets/diagram5.png "Diagram 5")
+![Diagram 5]({{ site.url }}/assets/images/diagram5.png "Diagram 5")
 
 We also need to do some geometry (see next section).
 Let $O$ be the origin.
 Let $A$ be the position of the fox.
 Let $B$ be the position of the rabbit.
 Let $C$ be the intersection of the velocity vectors when extended outwards (this isn't really physically relevant, but we use it later).
-Let $D$ be the interesection of the horizontal and vertical components of the fox's velocity.
+Let $D$ be the interesection of the horizontal and vertical components of the fox's velocity (also not physically relevant, but we also use it later).
 
 ## Some Geometry
 We start with some angle-chasing. 
@@ -30,5 +30,5 @@ Let $\angle ABC \equiv \theta$.
 By definition of components, $\overline{DB} \perp \overline{AD}$, so $\angle ABD = \theta - \frac{\pi}{2}$.
 By complementary angles, $\angle BAD = \frac{\pi}{2} - \angle ABD = \pi - \theta $
 Let $\alpha \equiv \pi - \theta$.
-Let $r \equiv \overline{AB}$, 
-
+Let $r \equiv \overline{AB}$ and $x \equiv \overline{AD}$.
+From trigonometry, $x = r \cos{\alpha} = - r \cos{\theta}$
