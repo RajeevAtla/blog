@@ -22,6 +22,6 @@ Hopefully, this will allow me to balance breadth and depth.
 That's all for today! Stay safe folks!
 
 Status:
-- [X] [Chapter 1]({{ site.url }}/plasmaphysics/2020/1/11/Intro-To-Plasma-Physics.html)
-- [X] [Chapter 2]({{ site.url }}/plasmaphysics/2020/2/22/More-Plasma-Physics.html)
+- [X] [Chapter 1]({{ site.url }}/plasmaphysics/2020/01/11/Intro-To-Plasma-Physics.html)
+- [X] [Chapter 2]({{ site.url }}/plasmaphysics/2020/02/22/More-Plasma-Physics.html)
 - [ ] Chapter 3 is currently being read and will be posted in the near future
