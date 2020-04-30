@@ -24,7 +24,7 @@ Due to its density being right in the middle of the objects discussed above, it 
 
 In order to best understand how plasmas behave, we first consider how a particle behaves in the prescence of electrical and magnetic fields i.e. we are going to start by studying single-particle motions.
 
-##2.2 $E=0$
+## 2.2 $E=0$
 Consider a charged particle in a region with magnetic field $\boldsymbol{B} = B \boldsymbol{\hat{z}}$.
 From definition of the cross product, all motion will happen in the $xy$ plane.
 The equations of motion are therefore $\dot{v}_x = \frac{qB}{m} v_y$ and $\dot{v}_y = -\frac{qB}{m}$.
