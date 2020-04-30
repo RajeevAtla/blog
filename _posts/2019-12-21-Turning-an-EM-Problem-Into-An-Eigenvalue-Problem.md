@@ -148,5 +148,5 @@ We see that the final position of the particle is at
 
 
 $$
-(x, y) = \frac{v_0}{\left (\frac{\alpha}{m} \right)^2 + \left (\frac{qB}{m} \right)^2 } \left (\frac{qB}{m}, \frac{\alpha}{m} \right)
+(x, y) = \frac{m^2 v_0}{\left (\frac{\alpha}{m} \right)^2 + \left (\frac{qB}{m} \right)^2 } \left (\frac{qB}{m}, \frac{\alpha}{m} \right)
 $$
