@@ -72,5 +72,10 @@ We use the Euler-Lagrange equation now, with time coordinate $x$.
 
 
 $$
-\frac{\partial \mathcal{L} }{\partial y(x)} = \frac{d}{dt} \left (\frac{\partial \mathcal{L} }{\partial \left (\frac{dy}{dx} \right)} \right)
+\frac{\partial \mathcal{L} }{\partial y(x)} = \frac{d}{dx} \left (\frac{\partial \mathcal{L} }{\partial \left (\frac{dy}{dx} \right)} \right)
 $$
+
+
+Substituting the Lagrangian $\mathcal{L}$ we found above, we find
+
+
