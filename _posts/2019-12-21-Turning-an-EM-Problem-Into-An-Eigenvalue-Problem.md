@@ -133,7 +133,7 @@ $$
 To find the displacement from the origin, we integrate (to avoid integrating by parts, convert both components into complex exponentials) this vector with respect to time, and find
 
 $$
-\boldsymbol{r} = \frac{v_0}{\alpha^2 + q^2 B^2}
+\boldsymbol{r} = \frac{m^2 v_0}{\alpha^2 + q^2 B^2}
 \begin{pmatrix}
 \frac{qB}{m} - \frac{\alpha}{m} e^{- \frac{\alpha}{m} t} \sin \left (\frac{qB}{m} t \right) - \frac{qB}{m} e^{- \frac{\alpha}{m} t} \cos \left (\frac{qB}{m} t \right) \\
 \frac{\alpha}{m} - \frac{\alpha}{m} e^{- \frac{\alpha}{m} t} \cos \left (\frac{qB}{m} t \right) + \frac{qB}{m} e^{- \frac{\alpha}{m} t} \sin \left (\frac{qB}{m} t \right)
@@ -148,5 +148,5 @@ We see that the final position of the particle is at
 
 
 $$
-(x, y) = \frac{m^2 v_0}{\left (\frac{\alpha}{m} \right)^2 + \left (\frac{qB}{m} \right)^2 } \left (\frac{qB}{m}, \frac{\alpha}{m} \right)
+(x, y) = \frac{ v_0}{\left (\frac{\alpha}{m} \right)^2 + \left (\frac{qB}{m} \right)^2 } \left (\frac{qB}{m}, \frac{\alpha}{m} \right)
 $$
