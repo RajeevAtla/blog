@@ -5,7 +5,7 @@ title: "An Interesting Kinematics Problem"
 categories: misc
 ---
 
-I was review kinematics (for fun, of course) because its my favorite physics topic because of its extreme relevance to the real world.
+I was reviewing kinematics (for fun, of course) because its my favorite physics topic because of its extreme relevance to the real world.
 After all, who hasn't dropped something or pushed something off a table.
 I was grinding some problems and came across a really interesting one.
 
@@ -17,7 +17,7 @@ Find the distance betwen the animals after a long time.
 
 ## Diagram
 It's important to make a diagram in these kinds of problems, as you can easily get lost in the coordinates, directions, etc.
-We therefore draw a diagram using Asymptote, mostly because it looks nice.
+We  draw a diagram using Asymptote, mostly because it looks really nice.
 This diagram shows the system at some point in time $t$.
 
 ![Diagram 5]({{ site.url }}/assets/images/diagram5.png "Diagram 5")
@@ -61,4 +61,9 @@ Implying that the quantity is conserved.
 ## Solution
 Initially, $r+x = a$. After a time $t \gg \frac{a}{v}$ has passed, there is effectively no vertical distance, so $r = x = \frac{a}{2}$.
 
-Notice that we used a conservation law here. Usually, we would have used a standard conservation law, like conservation of energy or momentum, but instead, we madee our own conservation law. ༼ʘ̚ل͜ʘ̚༽ ᕦ(ò_óˇ)ᕤJust like mathematics, creativity in physics helps a lot. Coming up tomorrow: Chapter 2 of Plasma Physics! (͡ ͡° ͜ つ ͡͡°) See you tomorrow, I've got HW to do! (☞ຈل͜ຈ)☞
+Notice that we used a conservation law here. Usually, we would have used a standard conservation law, like conservation of energy or momentum, but instead, we madee our own conservation law.
+༼ʘ̚ل͜ʘ̚༽ 
+ᕦ(ò_óˇ)ᕤ 
+Just like mathematics, creativity in physics helps a lot. 
+Coming up tomorrow: Chapter 2 of Plasma Physics! 
+(͡ ͡° ͜ つ ͡͡°) See you tomorrow, I've got HW to do! (☞ຈل͜ຈ)☞
