@@ -68,5 +68,9 @@ $$
 
 
 ### Part 3
-We use the Euler-Lagrange equation now.
+We use the Euler-Lagrange equation now, with time coordinate $x$.
 
+
+$$
+\frac{\partial \mathcal{L} }{\partial y(x)} = \frac{d}{dt} \left (\frac{\partial \mathcal{L} }{\partial \left (\frac{dy}{dx} \right)} \right)
+$$
