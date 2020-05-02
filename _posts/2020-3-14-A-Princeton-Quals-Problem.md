@@ -35,17 +35,17 @@ ds = dx \, \sqrt{1 + \left (\frac{dy(x)}{dx} \right)^2}
 $$
 
 
-Defining the linear mass density of the rope to be $\lambda = \frac{M}{2L}$, the potential energy of this piece is
+Defining the linear mass density of the rope to be $\rho = \frac{M}{2L}$, the potential energy of this piece is
 
 
-$$dU = g \, y(x) \, dm = \lambda g \, y(x) \sqrt{1 + \left (\frac{dy(x)}{dx} \right)^2} \, dx$$
+$$dU = g \, y(x) \, dm = \rho g \, y(x) \sqrt{1 + \left (\frac{dy(x)}{dx} \right)^2} \, dx$$
 
 
 The total potential energy is then
 
 
 $$
-U = \lambda g \int y(x) \sqrt{1 + \left (\frac{dy}{dx} \right)^2} \, dx
+U = \rho g \int \limits_{-w}^{w} y(x) \sqrt{1 + \left (\frac{dy}{dx} \right)^2} \, dx
 $$
 
 
@@ -54,16 +54,24 @@ By definition, $y(x)$ must satisfy
 
 
 $$
-2L = \int \sqrt{1 + \left (\frac{dy}{dx} \right)^2} \, dx
+2L = \int \limits_{-w}^{w} \sqrt{1 + \left (\frac{dy}{dx} \right)^2} \, dx
 $$
 
+This can be rewritten as
+
+
+$$
+\int \limits_{-w}^{w} \left (\sqrt{1 + \left (\frac{dy(x)}{dx} \right)^2 } - \frac{L}{a} \right) dx = 0
+$$
+
+
+This quantity is always 0.
 ### Part 2
-We require the potential to be minimized, so we can define it to be our action, with $y(x)$ being the coordinate and $x$ being the time.
-Therefore, the Lagrangian is
+Incorporating the constraint using the Lagrange multiplier $\lambda$, and rewriting the functional as
 
 
 $$
-\mathcal{L} = y(x) \, \sqrt{1 + \left (\frac{dy}{dx} \right)^2}
+\int \limits_{-w}^{w} \left ( y(x) \sqrt{1 + \left (\frac{dy}{dx} \right)^2} + \lambda \left (\sqrt{1 + \left (\frac{dy(x)}{dx} \right)^2 } - \frac{L}{a} \right) \right) dx
 $$
 
 
