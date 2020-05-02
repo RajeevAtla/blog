@@ -10,7 +10,8 @@ So, just like when your binge-watching a good TV show, I need another one, anoth
 
 In fact... lets write some python code for it
 
-'''python
+```python
 while True:
-  print("I need another one, \n")
-'''
+  s = "another one"
+  print("I need " + s)
+```
