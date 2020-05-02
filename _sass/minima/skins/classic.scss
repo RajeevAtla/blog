@@ -28,7 +28,8 @@ $table-border-color:    $border-color-01 !default;
 // Syntax highlighting styles should be adjusted appropriately for every "skin"
 // ----------------------------------------------------------------------------
 
-.highlight {
+.highlight 
+{
   .c     { color: #998; font-style: italic } // Comment
   .err   { color: #a61717; background-color: #e3d2d2 } // Error
   .k     { font-weight: bold } // Keyword
