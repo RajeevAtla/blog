@@ -108,5 +108,5 @@ This is a transcendental equation that $a$, $L$, and $w$ must satisfy.
 ## Aftermath
 This was a fun problem!!!
 
-The curve we just solved for is called a (catenary)[https://en.wikipedia.org/wiki/Catenary].
+The curve we just solved for is called a [catenary](https://en.wikipedia.org/wiki/Catenary).
 Also, using hyperbolic trig functions are a common thing in physics, especially in special relativity.
