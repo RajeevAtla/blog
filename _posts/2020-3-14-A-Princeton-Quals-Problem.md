@@ -57,22 +57,31 @@ $$
 2L = \int \limits_{-w}^{w} \sqrt{1 + \left (\frac{dy}{dx} \right)^2} \, dx
 $$
 
-This can be rewritten as
 
 
-$$
-\int \limits_{-w}^{w} \left (\sqrt{1 + \left (\frac{dy(x)}{dx} \right)^2 } - \frac{L}{a} \right) dx = 0
-$$
-
-
-This quantity is always 0.
 ### Part 2
-Incorporating the constraint using the Lagrange multiplier $\lambda$, and rewriting the functional as
+In order to minimize the potential energy, we use the Euler-Lagrange equations.
+The Lagrangian is then
 
 
 $$
-\int \limits_{-w}^{w} \left ( y(x) \sqrt{1 + \left (\frac{dy}{dx} \right)^2} + \lambda \left (\sqrt{1 + \left (\frac{dy(x)}{dx} \right)^2 } - \frac{L}{a} \right) \right) dx
+\mathcal{L} = y(x) \sqrt{1 + y'(x)^2}
 $$
+
+
+Note that the Lagrangian is independent of $x$.
+
+#### Important Lemma
+We briefly discuss some important stuff regarding this type of Lagrangian.
+Consider a Lagrangian $\mathcal{L}(y(x), y'(x))$ that is independent of $x$.
+
+We start by multiplying both sides of the Euler-Lagrange equation by $y'(x)$.
+
+
+$$
+y'(x) \frac{\partial \mathcal{L}}{\partial y(x)} = y'(x) \frac{d}{dx} \frac{\partial \mathcal{L}}{\partial y'(x)}
+$$
+
 
 
 ### Part 3
@@ -84,6 +93,6 @@ $$
 $$
 
 
-Substituting the Lagrangian $\mathcal{L}$ we found above, we find
+
 
 
