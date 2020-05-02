@@ -3,4 +3,7 @@
 set -e
 
 echo "Building site..."
+
+gem update
+
 bundle exec jekyll build
