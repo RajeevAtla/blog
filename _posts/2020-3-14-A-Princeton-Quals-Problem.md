@@ -83,6 +83,13 @@ y'(x) \frac{\partial \mathcal{L}}{\partial y(x)} = y'(x) \frac{d}{dx} \frac{\par
 $$
 
 
+We then take the derivative with respect to $x$, so
+
+
+$$
+\frac{d}{dx} \left (y'(x) \frac{\partial \mathcal{L}}{\partial y(x)} \right) = y''(x) \frac{}{}
+$$
+
 
 ### Part 3
 We use the Euler-Lagrange equation now, with time coordinate $x$.
