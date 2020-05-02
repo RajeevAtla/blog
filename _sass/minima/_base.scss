@@ -1,4 +1,5 @@
-html {
+html 
+{
   font-size: $base-font-size;
 }
 
@@ -7,7 +8,8 @@ html {
  */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+dl, dd, ol, ul, figure 
+{
   margin: 0;
   padding: 0;
 
@@ -18,7 +20,8 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-body {
+body 
+{
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
@@ -42,11 +45,13 @@ body {
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
-%vertical-rhythm {
+%vertical-rhythm 
+{
   margin-bottom: $spacing-unit / 2;
 }
 
-hr {
+hr 
+{
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit;
 }
@@ -54,7 +59,8 @@ hr {
 /**
  * `main` element
  */
-main {
+main 
+{
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
@@ -63,8 +69,9 @@ main {
 /**
  * Images
  */
-img {
-  max-width: 100%;
+img 
+{
+  max-width: 120%;
   vertical-align: middle;
 }
 
@@ -73,11 +80,13 @@ img {
 /**
  * Figures
  */
-figure > img {
+figure > img 
+{
   display: block;
 }
 
-figcaption {
+figcaption 
+{
   font-size: $small-font-size;
 }
 
@@ -86,13 +95,16 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
+ul, ol 
+{
   margin-left: $spacing-unit;
 }
 
-li {
+li 
+{
   > ul,
-  > ol {
+  > ol 
+  {
     margin-bottom: 0;
   }
 }
@@ -102,7 +114,8 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 
+{
   font-weight: $base-font-weight;
 }
 
@@ -111,23 +124,28 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-a {
+a 
+{
   color: $link-base-color;
   text-decoration: none;
 
-  &:visited {
+  &:visited 
+  {
     color: $link-visited-color;
   }
 
-  &:hover {
+  &:hover 
+  {
     color: $link-hover-color;
     text-decoration: underline;
   }
 
-  .social-media-list &:hover {
+  .social-media-list &:hover 
+  {
     text-decoration: none;
 
-    .username {
+    .username 
+    {
       text-decoration: underline;
     }
   }
@@ -137,18 +155,21 @@ a {
 /**
  * Blockquotes
  */
-blockquote {
+blockquote 
+{
   color: $brand-color;
   border-left: 4px solid $border-color-01;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
   font-style: italic;
 
-  > :last-child {
+  > :last-child 
+  {
     margin-bottom: 0;
   }
 
-  i, em {
+  i, em 
+  {
     font-style: normal;
   }
 }
@@ -159,7 +180,8 @@ blockquote {
  * Code formatting
  */
 pre,
-code {
+code 
+{
   font-family: $code-font-family;
   font-size: 0.9375em;
   border: 1px solid $border-color-01;
@@ -167,27 +189,32 @@ code {
   background-color: $code-background-color;
 }
 
-code {
+code 
+{
   padding: 1px 5px;
 }
 
-pre {
+pre 
+{
   padding: 8px 12px;
   overflow-x: auto;
 
-  > code {
+  > code 
+  {
     border: 0;
     padding-right: 0;
     padding-left: 0;
   }
 }
 
-.highlight {
+.highlight 
+{
   border-radius: 3px;
   background: $code-background-color;
   @extend %vertical-rhythm;
 
-  .highlighter-rouge & {
+  .highlighter-rouge & 
+  {
     background: $code-background-color;
   }
 }
@@ -197,7 +224,8 @@ pre {
 /**
  * Wrapper
  */
-.wrapper {
+.wrapper 
+{
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
@@ -205,7 +233,8 @@ pre {
   padding-left: $spacing-unit / 2;
   @extend %clearfix;
 
-  @media screen and (min-width: $on-large) {
+  @media screen and (min-width: $on-large) 
+  {
     max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
@@ -217,7 +246,8 @@ pre {
 /**
  * Clearfix
  */
-%clearfix:after {
+%clearfix:after 
+{
   content: "";
   display: table;
   clear: both;
@@ -229,15 +259,18 @@ pre {
  * Icons
  */
 
-.orange {
+.orange 
+{
   color: #f66a0a;
 }
 
-.grey {
+.grey 
+{
   color: #828282;
 }
 
-.svg-icon {
+.svg-icon 
+{
   width: 16px;
   height: 16px;
   display: inline-block;
@@ -250,30 +283,37 @@ pre {
 /**
  * Tables
  */
-table {
+table 
+{
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
   color: $table-text-color;
   border-collapse: collapse;
   border: 1px solid $table-border-color;
-  tr {
-    &:nth-child(even) {
+  tr 
+  {
+    &:nth-child(even) 
+    {
       background-color: $table-zebra-color;
     }
   }
-  th, td {
+  th, td 
+  {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
-  th {
+  th 
+  {
     background-color: $table-header-bg-color;
     border: 1px solid $table-header-border;
   }
-  td {
+  td 
+  {
     border: 1px solid $table-border-color;
   }
 
-  @include media-query($on-laptop) {
+  @include media-query($on-laptop) 
+  {
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
