@@ -70,36 +70,43 @@ $$
 
 
 Note that the Lagrangian is independent of $x$.
-
-#### Important Lemma
-We briefly discuss some important stuff regarding this type of Lagrangian.
-Consider a Lagrangian $\mathcal{L}(y(x), y'(x))$ that is independent of $x$.
-
-We start by multiplying both sides of the Euler-Lagrange equation by $y'(x)$.
+Its a well-known fact that when this occurs, this quantity is constant:
 
 
 $$
-y'(x) \frac{\partial \mathcal{L}}{\partial y(x)} = y'(x) \frac{d}{dx} \frac{\partial \mathcal{L}}{\partial y'(x)}
-$$
-
-
-We then take the derivative with respect to $x$, so
-
-
-$$
-\frac{d}{dx} \left (y'(x) \frac{\partial \mathcal{L}}{\partial y(x)} \right) = y''(x) \frac{}{}
+\mathcal{L} - y'(x) \frac{\partial \mathcal{L}}{\partial y'(x)} = C
 $$
 
 
 ### Part 3
-We use the Euler-Lagrange equation now, with time coordinate $x$.
+Let the constant be $a$.
+Substituting the Lagrangian we've already found into this equation, we see that it saves us some time compared to the Euler-Lagrange equation.
+Evaluating and simplifying, we see that
 
 
 $$
-\frac{\partial \mathcal{L} }{\partial y(x)} = \frac{d}{dx} \left (\frac{\partial \mathcal{L} }{\partial \left (\frac{dy}{dx} \right)} \right)
+\left ( \frac{y'(x)}{a} \right ) - (y(x))^2 = 1
 $$
 
 
+We recognize the similiarity with the hyperbolic trigonometric functions $\sinh{(x)}$ and $\cosh{(x)}$ due to them being derivatives of each other and the identity $\sinh^2 {x} - \cosh^2 {x} = 1$.
+We guess a solution in the form of $y(x) = a \cosh{bx}$.
+This works as long as $a = \frac{1}{b}$.
+
+We first consider our symmetry constraint. 
+Since a hyperbolic cosine is an even function $y(w) = y(-w)$.
+
+Finally, we must consider our length constraint.
+Evaluating the length integral
 
 
+$$2L = 2a \sinh{\left (\frac{w}{a} \right)}$$
 
+
+This is a transcendental equation that $a$, $L$, and $w$ must satisfy.
+
+## Aftermath
+This was a fun problem!!!
+
+The curve we just solved for is called a (catenary)[https://en.wikipedia.org/wiki/Catenary].
+Also, using hyperbolic trig functions are a common thing in physics, especially in special relativity.
