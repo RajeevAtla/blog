@@ -123,10 +123,55 @@ This is the center of the orbit and is fixed, for now (¬‿¬).
 ### 2.2.2 Finite $E$
 
 We now add in an electric field with $E_y = 0$, so $\boldsymbol{E} = E_x \boldsymbol{\hat{x}} + E_z \boldsymbol{\hat{z}}$.
-We start with the $z$-direction.
+We start with the $\boldsymbol{\hat{z}}$-direction.
 The equation of motion in this direction is
 
 
 $$
 \frac{dv_z}{dt} = \frac{qE_z}{m} \Rightarrow v_z = \frac{qE_z}{m} t + v_{0_{z}} \Rightarrow z-z_0 = \frac{qE_z}{2m} t^2 + v_{0_{z}} t
 $$
+
+
+This means that in the $\boldsymbol{\hat{z}}$-direction, there is simply an acceleration along $\boldsymbol{B}$.
+
+#### Transverse Components
+We now consider the transverse components: the $\boldsymbol{\hat{x}}$- and $\boldsymbol{\hat{y}}$-directions.
+
+
+$$
+\dot{v}_x = \frac{q}{m} E_x + \omega_c v_y
+$$
+
+
+$$
+\dot{v}_y = - \omega_c v_x
+$$
+
+
+Differentiating, after assuming a constant $\boldsymbol{E}$, we have, after a little manipulation and simplification,
+
+
+$$
+\ddot{v}_x = - \omega_c^2 v_x
+$$
+
+
+$$
+\ddot{v_y} = - \omega_c^2 \left (\frac{E_x}{B} + v_y \right)
+$$
+
+
+We see that both the motion in both directions exhibits simple harmonic motion, so we can solve this to find
+
+
+$$
+v_x = v_{\perp} e^{i \omega_c t}
+$$
+
+
+$$
+v_y = i v_{\perp} e^{i \omega_c t} - \frac{E_x}{B}
+$$
+
+
+We can define the guiding center drift to be $v_{gc} = \frac{E_x}{B}$, so we recover the Larmor motion we found before, albeit superimposed with a guiding center drift in the $- \boldsymbol{\hat{y}}$-direction.
