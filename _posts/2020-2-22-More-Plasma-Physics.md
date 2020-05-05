@@ -352,7 +352,7 @@ Assuming that $\frac{\partial B_z}{\partial z}$ exists at $r=0$ and $\frac{\part
 
 
 $$
-r B_r = - \int \limits_{0}^{r} r' \frac{\partial B_z}{\partial z} \, dr' \approx \frac{1}{2} r^2 {\partial B_z}{\partial z} \bigg \vert_{r = 0} \Rightarrow B_r = - \frac{r}{2} {\partial B_z}{\partial z} \bigg \vert_{r = 0}
+r B_r = - \int \limits_{0}^{r} r' \frac{\partial B_z}{\partial z} \, dr' \approx \frac{1}{2} r^2 \frac{\partial B_z}{\partial z} \bigg \vert_{r = 0} \Rightarrow B_r = - \frac{r}{2} \frac{\partial B_z}{\partial z} \bigg \vert_{r = 0}
 $$
 
 Evaulating the Lorentz force and ignoring all inhomogenous terms, we see that the only force of interest is
@@ -425,15 +425,7 @@ $$
 $$
 
 
-Using energy conservation,
-
-
-$$
-v_{\perp}^2 ' = v_{\perp_{0}}^2 + v_{\parallel_{0}}^2 \equiv v_0^2
-$$
-
-
-Combining these two equations, we see that
+Combining this with energy conservation, we see that
 
 
 $$
