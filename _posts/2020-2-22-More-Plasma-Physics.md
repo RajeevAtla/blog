@@ -230,7 +230,7 @@ $$
 
 We now consider inhomogeneous fields for $\boldsymbol{E}$ and $\boldsymbol{B}$.
 
-### 2.3.1 $\nable \boldsymbol{B} \perp \boldsymbol{B}$: Grad-B Drift
+### 2.3.1 $ \nabla \boldsymbol{B} \perp \boldsymbol{B}$: Grad-B Drift
 
 Consider when the lines of force are straight, but their density increases in the $\boldsymbol{\hat{y}}$-direction.
 
@@ -297,4 +297,5 @@ $$
 \boldsymbol{v}_{R} = \frac{m v_{\parallel}^2 }{qB^2} \frac{\boldsymbol{R}_c \times \boldsymbol{B} }{R_c^2}
 $$
 
+#### Accompanying Grad-B drift
 
