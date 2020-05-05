@@ -218,7 +218,7 @@ $$
 
 
 There is a subtle difference here from the normal $\boldsymbol{v}_E$, namely that the sign of the charge does indeed matter.
-This means that ions and elecrons will drift in opposite directions, giving a net current density in the plasma of
+This means that ions and electrons will drift in opposite directions, giving a net current density in the plasma of
 
 
 $$
@@ -228,11 +228,54 @@ $$
 
 ## 2.3 Nonuniform $\boldsymbol{B}$ Field
 
-We now consider inhomogenous fields for $\boldsymbol{E}$ and $\boldsymbol{B}$.
+We now consider inhomogeneous fields for $\boldsymbol{E}$ and $\boldsymbol{B}$.
 
-### 2.3.1 $\del \boldsymbol{B} \perp \boldsymbol{B}$: Grad-B Drift
+### 2.3.1 $\nable \boldsymbol{B} \perp \boldsymbol{B}$: Grad-B Drift
 
 Consider when the lines of force are straight, but their density increases in the $\boldsymbol{\hat{y}}$-direction.
 
-The gradient in $\boldsymbol{B}$ causes the Larmor raidus to vary, becoming larger at the bottom of the orbit than the top.
+The gradient in $\boldsymbol{B}$ causes the Larmor radius to vary, becoming larger at the bottom of the orbit than the top.
 This should lead to a drift, with opposing directions for ions and electrons, perpendicular to both $\boldsymbol{B}$ and $\del \boldsymbol{B}$.
+
+We now consider the average motions in each direction.
+Clearly, $\langle F_x \rangle = 0$, because the particle spends equally as much time moving up and down.
+From the work we've done above, we see that
+
+
+$$
+F_y = -q v_x B_z(y) \approx -qv_{\perp} B_0 \cos{(\omega_c t)} \pm q v_{\perp} r_L \cos^2 {\omega_c t} \frac{\partial B}{\partial y} 
+$$
+
+
+We have used a Taylor expansion of $B_z \approx B_0 + y \frac{\partial B_z}{\partial y}$.
+To be valid, this approximation requires $r/L \ll 1$, where $L \sim \frac{\partial B_z}{\partial y}$.
+
+We see that the first term averages to $0$ and the $\cos^2$ averages to $\frac{1}{2}$, so
+
+
+$$
+\langle F_y \rangle = \pm \frac{q v_{\perp} r_L }{2} \frac{\partial B}{\partial y}
+$$
+
+
+The guiding center's drift velocity is then
+
+$$
+\boldsymbol{v}_{gc} = \pm \frac{v_{\perp} r_L }{2 B} \frac{\partial B}{\partial y} \boldsymbol{\hat{x}}
+$$
+
+
+Since the choice of coordinates is arbitrary, we can generalize to find the grad-B drift.
+
+
+$$
+v_{\nabla \boldsymbol{B}} = \pm \frac{v_\perp r_L}{2} \frac{\boldsymbol{B} \times \nabla \boldsymbol{B} }{B^2}
+$$
+
+
+Up to the $1/2$ factor, we could have derived this with dimensional analysis.
+Note that this is in opposing directions for ions and electrons and causes a current transverse to $\boldsymbol{B}$.
+
+### 2.3.2 Curved B: Curvature Drift
+Now we consider the case when the lines of force are curved with a constant radius of curvature $R_c$, with $B$ a constant.
+Recall from electrodynamics that such a magnetic field doesn't obey Maxwell's equations, so we will also have a grad-B drift superimposed to the curvature drift.
