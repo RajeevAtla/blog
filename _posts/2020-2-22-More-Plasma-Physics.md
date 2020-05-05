@@ -300,7 +300,7 @@ $$
 #### Accompanying Grad-B drift
 We must take into account the decrease of $B$ with raidus.
 In a vacuum, we have $\nabla \times \boldsymbol{B} = 0$, by Gauss's law of magnetism.
-In cylindrical coordinates, $\nabla \times \boldsymbol{B}$ has only a $\boldsymbol{\hat{z}}$-component, since $\boldsymbol{B}$ has only a $\boldsymbol{\hat{\theta}}$-component and $\nabla B$ has only an $\boldsymbol{\hat{r}$-component.
+In cylindrical coordinates, $\nabla \times \boldsymbol{B}$ has only a $\boldsymbol{\hat{z}} $-component, since $\boldsymbol{B}$ has only a $\boldsymbol{\hat{\theta}}$-component and $\nabla B$ has only an $\boldsymbol{\hat{r}}$-component.
 We then have the differnential equation
 
 
@@ -332,7 +332,7 @@ $$
 
 Because the drifts add, this means that its impossible to confine a plasma into a torus, as it will always drift out, no matter how the temperature and magnetic field vary.
 
-Applying a Maxwellian distribution on $\langle v_{\parallel}^2 \rangle$ and $\langle \frac{1}{2} v_{\perp}^2 \rangle$, we see that each becomes \frac{KT}{m}, so
+Applying a Maxwellian distribution on $\langle v_{\parallel}^2 \rangle$ and $\langle \frac{1}{2} v_{\perp}^2 \rangle$, we see that each becomes $\frac{KT}{m}$, so
 
 
 $$
@@ -348,4 +348,117 @@ Since the magnetic field lines converge and diverge, there is definitely a compo
 We now show that this component generates a force that can trap a particle in a magnetic field.
 
 From $\nabla \cdot \boldsymbol{B} = 0$, $\frac{1}{r} \frac{\partial}{\partial r} \left (r B_r \right) + \frac{\partial B_z}{\partial z} = 0$.
-Assuming that $\frac{\partial B_z}{\partial z}$ exists at $r=0$ and $\frac{\partial^2 B_z}{\partial r \, \partial z} \approx 0$, 
+Assuming that $\frac{\partial B_z}{\partial z}$ exists at $r=0$ and $\frac{\partial^2 B_z}{\partial r \, \partial z} \approx 0$, we have
+
+
+$$
+r B_r = - \int \limits_{0}^{r} r' \frac{\partial B_z}{\partial z} \, dr' \approx \frac{1}{2} r^2 {\partial B_z}{\partial z} \bigg \vert_{r = 0} \Rightarrow B_r = - \frac{r}{2} {\partial B_z}{\partial z} \bigg \vert_{r = 0}
+$$
+
+Evaulating the Lorentz force and ignoring all inhomogenous terms, we see that the only force of interest is
+
+
+$$
+F_z = \frac{1}{2} q v_{\theta} r \frac{\partial B_z}{\partial z}
+$$
+
+
+Taking the average over one complete gyration,
+
+
+$$
+\langle F_z \rangle = - \frac{1}{2} \frac{m v_{\perp}^2 }{B} \frac{\partial B_z}{\partial z}
+$$
+
+
+We define the magnetic moment of a gyrating particle to be $\mu \equiv \frac{mv_{\perp}^2 }{2B}$, so
+
+
+$$
+\langle F_z \rangle = - \mu \frac{\partial B_z}{\partial z}
+$$
+
+
+We can generalize this to the general force on a diamagnetic particle, which we write as
+
+
+$$
+\boldsymbol{F}_{\parallel} = - \mu \nabla_{\parallel} B
+$$
+
+
+Note that the magnetic moment is also $\mu = IA$, for a current loop.
+
+We now show that $\mu$ remains invariant across changing $\boldsymbol{B}$.
+We first consider the component of the equation along $\boldsymbol{B}$ and multiply both sides by $\frac{ds}{dt} = v_{\parallel}$.
+
+
+$$
+m \frac{d v_{\parallel}}{dt} = - \mu \frac{\partial B}{\partial s} \Rightarrow m v_{\parallel} \frac{d v_{\parallel} }{dt} = \frac{d}{dt} \left (\frac{1}{2} mv_{\parallel}^2 \right) = - \mu \frac{dB}{dt}
+$$
+
+
+Energy must be conserved, so
+
+
+$$
+\frac{d}{dt} \left (\frac{1}{2} m v_{\parallel}^2 + \frac{1}{2} m v_{\perp}^2 \right) = \frac{d}{dt} \left (\frac{1}{2} m v_{\parallel}^2 + \mu B \right) = 0
+$$
+
+
+With the condition we found above, we can substitute to find that $\frac{d \mu}{dt} = 0$, as desired.
+
+#### Magnetic Mirror
+$\mu$-invariance is the basis of one of the primary schemes of plasma confinement - the magnetic mirror.
+As a particle moves from a weak $B$ to a strong $B$, $v_{\perp}$ must increase in order to keep $\mu$ a constant.
+However, since energy must be conserved, $v_{\parallel}$ must then decrease, as the magnetic force does no work.
+
+This type of confinement isn't perfect, as a particle with $v_{\perp}$ will have $\mu = 0$ and will be free to escape.
+We now further discuss the conditions required for a particle to escape.
+A particle with $v_{\parallel} = v_{\parallel_{0}}$ and $v_{\perp} = v_{\perp_{0}}$ at the midplane between the two fields will have $v_{\perp} = v_{\perp} '$ and $v_{\parallel} = 0$ at the turning point.
+Let the two respective fields be $B_0$ and $B'$.
+Using $\mu$-invariance,
+
+
+$$
+\frac{v_{\perp_{0}}^2 }{B_0} = \frac{v_{\perp_{0}}}{B'}
+$$
+
+
+Using energy conservation,
+
+
+$$
+v_{\perp}^2 ' = v_{\perp_{0}}^2 + v_{\parallel_{0}}^2 \equiv v_0^2
+$$
+
+
+Combining these two equations, we see that
+
+
+$$
+\frac{B_0}{B'} = \frac{v_{\perp_{0}}^2 }{v_0^2} \equiv \sin^2 \theta
+$$
+
+
+Here, $\theta$ is the pitch angle of the orbit in the weak-field region.
+Particles with smaller $\theta$ will mirror in regions of higher $B$.
+However, if $\theta$ is too small, then $B' > B_m$ and the particle doesn't mirror at all.
+
+We see that the mirror ratio is
+
+
+$$
+\sin^2 \theta_m = \frac{B_0}{B_m} \equiv \frac{1}{R_m}
+$$
+
+
+This means that the non-mirror region is a cone, called a loss cone.
+If a particle is in the loss cone, then it is not affected.
+
+Note that the loss cone is independent of $q$ and $m$.
+If no collisions occur, then both ions and electrons are sufficiently confined.
+However, if they do occur, then particles can change their pitch angles and be scattered into the loss cone.
+Electrons are usually lost more frequently because they are smaller and therefore have a higher collision frequency.
+
+The magnetic mirror was first proposed by Enrico Fermi as a mechanism to accelerate cosmic rays.
