@@ -235,7 +235,7 @@ We now consider inhomogeneous fields for $\boldsymbol{E}$ and $\boldsymbol{B}$.
 Consider when the lines of force are straight, but their density increases in the $\boldsymbol{\hat{y}}$-direction.
 
 The gradient in $\boldsymbol{B}$ causes the Larmor radius to vary, becoming larger at the bottom of the orbit than the top.
-This should lead to a drift, with opposing directions for ions and electrons, perpendicular to both $\boldsymbol{B}$ and $\del \boldsymbol{B}$.
+This should lead to a drift, with opposing directions for ions and electrons, perpendicular to both $\boldsymbol{B}$ and $ \nabla \boldsymbol{B}$.
 
 We now consider the average motions in each direction.
 Clearly, $\langle F_x \rangle = 0$, because the particle spends equally as much time moving up and down.
@@ -298,4 +298,54 @@ $$
 $$
 
 #### Accompanying Grad-B drift
+We must take into account the decrease of $B$ with raidus.
+In a vacuum, we have $\nabla \times \boldsymbol{B} = 0$, by Gauss's law of magnetism.
+In cylindrical coordinates, $\nabla \times \boldsymbol{B}$ has only a $\boldsymbol{\hat{z}}$-component, since $\boldsymbol{B}$ has only a $\boldsymbol{\hat{\theta}}$-component and $\nabla B$ has only an $\boldsymbol{\hat{r}$-component.
+We then have the differnential equation
 
+
+$$
+\frac{1}{r} \frac{\partial}{\partial r} \left (r B_{\theta} \right) = 0 \Rightarrow B_{\theta} \propto \frac{1}{r}
+$$
+
+
+Therefore,
+
+$$
+B \propto \frac{1}{R_c} \Rightarrow \frac{\nabla B}{B} = - \frac{\boldsymbol{R}_c }{R_c^2}
+$$
+
+Evaluating the cross product to find the drift, we see that
+
+$$
+v_{\nabla B} = \frac{m v_{\perp}^2 }{2q} \frac{\boldsymbol{R}_c \times \boldsymbol{B} }{R_c^2 B^2}
+$$
+
+
+Adding up the contributions from each drift,
+
+
+$$
+\boldsymbol{v}_R + \boldsymbol{v}_{\nabla B} = \frac{m \boldsymbol{R}_c \times \boldsymbol{B} }{q R_c^2 B^2} \left (\frac{1}{2} v_{\perp}^2 + v_{\parallel}^2 \right)
+$$
+
+
+Because the drifts add, this means that its impossible to confine a plasma into a torus, as it will always drift out, no matter how the temperature and magnetic field vary.
+
+Applying a Maxwellian distribution on $\langle v_{\parallel}^2 \rangle$ and $\langle \frac{1}{2} v_{\perp}^2 \rangle$, we see that each becomes \frac{KT}{m}, so
+
+
+$$
+\langle \boldsymbol{v}_{R + \nabla B} \rangle = \frac{r_L}{R_c} v_{th} \boldsymbol{\hat{y}}
+$$
+
+
+### $\nabla \boldsymbol{B} \parallel \boldsymbol{B} $: Magnetic Mirrors
+
+Now we consider a magnetic field which is pointed in the $z$-direction and whose magnitude varies in the $z$-direction.
+Let the field be symmetric about the axis, so $B_{\theta} = 0$ and $\frac{\partial }{\partial \theta} = 0$.
+Since the magnetic field lines converge and diverge, there is definitely a component in the radial direction: $B_r$.
+We now show that this component generates a force that can trap a particle in a magnetic field.
+
+From $\nabla \cdot \boldsymbol{B} = 0$, $\frac{1}{r} \frac{\partial}{\partial r} \left (r B_r \right) + \frac{\partial B_z}{\partial z} = 0$.
+Assuming that $\frac{\partial B_z}{\partial z}$ exists at $r=0$ and $\frac{\partial^2 B_z}{\partial r \, \partial z} \approx 0$, 
