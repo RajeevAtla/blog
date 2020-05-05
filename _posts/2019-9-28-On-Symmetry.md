@@ -22,9 +22,7 @@ We begin by assigning coordinates across the square.
 Let the center of the square lie at the origin and let the square lie in the $ xy $ -plane.
 Consider an area element $dA = dx \, dy$ located at $(x,y,0)$.
 
-
 ![Diagram 1]({{ site.url }}/assets/images/diag1/diag1.png "Diagram 1")
-
 
 (Produced using Asymptote)
 
