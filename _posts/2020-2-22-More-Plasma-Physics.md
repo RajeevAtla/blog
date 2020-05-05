@@ -199,4 +199,40 @@ $$
 v_E = \frac{E}{B}
 $$
 
+### 2.2.3 Gravitational Field
+Sometimes, we need to consider non-electric forces when analyzing a particle.
+We make the substitution $q \boldsymbol{E} \to \boldsymbol{F}$, so the guiding center drift is then given by
 
+
+$$
+\boldsymbol{v}_f = \frac{\boldsymbol{F} \times \boldsymbol{B} }{qB^2}
+$$
+
+
+If $\boldsymbol{F}$ is the force of gravity, then
+
+
+$$
+\boldsymbol{v}_g = \frac{m \boldsymbol{v} \times \boldsymbol{B} }{qB^2}
+$$
+
+
+There is a subtle difference here from the normal $\boldsymbol{v}_E$, namely that the sign of the charge does indeed matter.
+This means that ions and elecrons will drift in opposite directions, giving a net current density in the plasma of
+
+
+$$
+\boldsymbol{j} = n(M +m) \frac{\boldsymbol{g} \times \boldsymbol{B} }{B^2}
+$$
+
+
+## 2.3 Nonuniform $\boldsymbol{B}$ Field
+
+We now consider inhomogenous fields for $\boldsymbol{E}$ and $\boldsymbol{B}$.
+
+### 2.3.1 $\del \boldsymbol{B} \perp \boldsymbol{B}$: Grad-B Drift
+
+Consider when the lines of force are straight, but their density increases in the $\boldsymbol{\hat{y}}$-direction.
+
+The gradient in $\boldsymbol{B}$ causes the Larmor raidus to vary, becoming larger at the bottom of the orbit than the top.
+This should lead to a drift, with opposing directions for ions and electrons, perpendicular to both $\boldsymbol{B}$ and $\del \boldsymbol{B}$.
