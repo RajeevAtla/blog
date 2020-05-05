@@ -39,6 +39,7 @@ excluded_words:
   - langle
   - propto
   - perp
+  - bigg
 
 # Would you like filenames to also be spellchecked?
 spellcheck_filenames: true
