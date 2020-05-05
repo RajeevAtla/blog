@@ -121,3 +121,12 @@ We call the point $(x_0 , y_0)$ the **guiding center**.
 This is the center of the orbit and is fixed, for now (¬‿¬).
 
 ### 2.2.2 Finite $E$
+
+We now add in an electric field with $E_y = 0$, so $\boldsymbol{E} = E_x \boldsymbol{\hat{x}} + E_z \boldsymbol{\hat{z}}$.
+We start with the $z$-direction.
+The equation of motion in this direction is
+
+
+$$
+\frac{dv_z}{dt} = \frac{qE_z}{m} \Rightarrow v_z = \frac{qE_z}{m} t + v_{0_{z}} \Rightarrow z-z_0 = \frac{qE_z}{2m} t^2 + v_{0_{z}} t
+$$
