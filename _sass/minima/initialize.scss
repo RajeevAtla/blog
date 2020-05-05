@@ -14,10 +14,10 @@ $spacing-unit:     30px !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    1300px !default;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-palm:          1100px !default;
+$on-laptop:        1300px !default;
 
 $on-medium:        $on-palm !default;
 $on-large:         $on-laptop !default;
@@ -31,13 +31,16 @@ $on-large:         $on-laptop !default;
 // }
 // Notice the following mixin uses max-width, in a deprecated, desktop-first
 // approach, whereas media queries used elsewhere now use min-width.
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
+@mixin media-query($device) 
+{
+  @media screen and (max-width: $device) 
+  {
     @content;
   }
 }
 
-@mixin relative-font-size($ratio) {
+@mixin relative-font-size($ratio) 
+{
   font-size: #{$ratio}rem;
 }
 
