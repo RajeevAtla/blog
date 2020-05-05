@@ -175,3 +175,28 @@ $$
 
 
 We can define the guiding center drift to be $v_{gc} = \frac{E_x}{B}$, so we recover the Larmor motion we found before, albeit superimposed with a guiding center drift in the $- \boldsymbol{\hat{y}}$-direction.
+
+#### General Drift
+We consider the general drift, for arbitrary $\boldsymbol{E}$ and $\boldsymbol{B}$.
+We consider the homogenous part of the Lorentz force equation, so we can omit the $m \boldsymbol{\dot{v}}$ term, because it simply is the Larmor rotation.
+
+
+$$
+\boldsymbol{E} + \boldsymbol{v} \times \boldsymbol{B} = 0 \Rightarrow \boldsymbol{E} \times \boldsymbol{B} = \boldsymbol{B} \times \left (\boldsymbol{v} \times \boldsymbol{B} \right) = \boldsymbol{v} B^2 - \boldsymbol{B} \left ( \boldsymbol{v} \cdot \boldsymbol{B} \right)
+$$
+
+
+Taking the transverse components, we can see that the electric field drift is
+
+
+$$\boldsymbol{v}_E = \frac{\boldsymbol{E} \times \boldsymbol{B} }{B^2}$$
+
+
+The magnitude is
+
+
+$$
+v_E = \frac{E}{B}
+$$
+
+
