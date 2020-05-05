@@ -278,4 +278,23 @@ Note that this is in opposing directions for ions and electrons and causes a cur
 
 ### 2.3.2 Curved B: Curvature Drift
 Now we consider the case when the lines of force are curved with a constant radius of curvature $R_c$, with $B$ a constant.
-Recall from electrodynamics that such a magnetic field doesn't obey Maxwell's equations, so we will also have a grad-B drift superimposed to the curvature drift.
+Recall from electrodynamics that such a magnetic field doesn't obey Maxwell's equations, so in practice, we will always also have a grad-B drift superimposed to the curvature drift.
+
+The average centrifugal force is
+
+
+$$
+\boldsymbol{F}_{cf} = \frac{m v_{\parallel}^2 \boldsymbol{R}_c }{R_c}
+$$
+
+
+We have used $v_{\parallel}^2$ to denote the average square of the velocity along $\boldsymbol{B}$.
+
+The curvature drift $\boldsymbol{v}_R$ is then
+
+
+$$
+\boldsymbol{v}_{R} = \frac{m v_{\paralell}^2 }{qB^2} \frac{\boldsymbol{R}_c \times \boldsymbol{B} }{R_c^2}
+$$
+
+
