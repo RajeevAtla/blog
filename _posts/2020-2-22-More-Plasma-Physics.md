@@ -294,7 +294,7 @@ The curvature drift $\boldsymbol{v}_R$ is then
 
 
 $$
-\boldsymbol{v}_{R} = \frac{m v_{\paralell}^2 }{qB^2} \frac{\boldsymbol{R}_c \times \boldsymbol{B} }{R_c^2}
+\boldsymbol{v}_{R} = \frac{m v_{\parallel}^2 }{qB^2} \frac{\boldsymbol{R}_c \times \boldsymbol{B} }{R_c^2}
 $$
 
 
