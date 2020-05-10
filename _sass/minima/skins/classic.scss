@@ -4,9 +4,9 @@ $brand-color:           #ffffff !default;
 $brand-color-light:     #ffffff !default;
 $brand-color-dark:      #ffffff !default;
 
-$site-title-color:      $brand-color-dark !default;
-
 $text-color:            #000000 !default;
+
+$site-title-color:      $text-color !default;
 
 $background-color:      #ffffff !default;
 
