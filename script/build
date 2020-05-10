@@ -8,4 +8,9 @@ gem update --system
 
 gem update
 
+gem update --system
+
+gem update
+
 bundle exec jekyll build
+
