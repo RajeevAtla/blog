@@ -454,3 +454,51 @@ However, if they do occur, then particles can change their pitch angles and be s
 Electrons are usually lost more frequently because they are smaller and therefore have a higher collision frequency.
 
 The magnetic mirror was first proposed by Enrico Fermi as a mechanism to accelerate cosmic rays.
+
+## 2.4: Nonuniform $E$ Field
+Now let the magnetic field be uniform and the electric field be nonuniform.
+For simplicity, let $\boldsymbol{E}$ point in the $\boldsymbol{\hat{x}}$-direction and vary such that
+
+$$
+\boldsymbol{E} = E_0 \cos{kx} \, \boldsymbol{\hat{x}}
+$$
+
+
+This means that the equations of motion are 
+
+$$
+\dot{v}_x = \frac{qB}{m} v_y + \frac{q}{m} E_x (x)
+$$
+
+$$
+\dot{v}_y = - \frac{qB}{m} v_x
+$$
+
+Putting the two equations together,
+
+$$
+\ddot{v}_x = - \omega_c^2 v_x \pm \frac{\omega_c \dot{E}_x }{B}
+$$
+
+$$
+\ddot{v}_y = - \omega_c^2 v_y - \frac{\omega_c^2 E }{B}
+$$
+
+If the electric field is weak, then we can treat the orbit as undisturbed and try to "extrapolate" from there (you'll see how later).
+We know that $x \equiv x_0 + r_L \sin{\omega t}$, so we can substitute this into the equation of motion above.
+Moreover, since we need to find a speed $v_E$, we take the average motion, so all terms involving a sine or cosine are gone.
+Therefore, $\langle v_x \rangle = 0$.
+Taking the Larmor radius as small, or $kr_L \ll 1$, we can Taylor approximate (specifcally, a Maclaurin series) around 0 to find that
+
+$$
+\langle v_y \rangle = - \frac{E_0}{B} \cos{kx_0} \left (1 - \frac{1}{4} k^2 r_L^2 \right)
+$$
+
+The usual $\boldsymbol{E} \times \boldsymbol{B}$ drift adds, and using linearity, we can say
+
+$$
+\boldsymbol{v}_E = \frac{\boldsymbol{E} \times \boldsymbol{B} }{B^2} \left (1 - \frac{1}{4} k^2 r_L^2 \right)
+$$
+
+Moreover, we can further correct this drift velocity by accounting for the (multi-dimensional) second derivative.
+We do this by substituting $ik$ with $\del$
