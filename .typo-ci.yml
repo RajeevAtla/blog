@@ -41,6 +41,7 @@ excluded_words:
   - perp
   - bigg
   - ddot
+  - mathjax
 
 # Would you like filenames to also be spellchecked?
 spellcheck_filenames: true
