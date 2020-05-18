@@ -546,5 +546,48 @@ Since $\dot{E} = i \omega E$, we write the equation of motion as
 
 
 $$
-\ddot{v}_x = - \omega_c^2 \left (v_x \np i \frac{\omega E}{\omega_c B} \right)
+\ddot{v}_x = - \omega_c^2 \left (v_x \mp i \frac{\omega \~{E}}{\omega_c B} \right)
 $$
+
+
+Let $\~{v}_P \equiv \pm i\frac{\omega \~{E}_x}{\omega_c B}$ and $\~{v}_E = \frac{\~{E}_x}{B}$.
+Therefore,
+
+
+$$
+\ddot{v}_x = - \omega_c^2 \left (v_x - \~{v}_p \right)
+$$
+
+
+$$
+\ddot{v}_y = - \omega_c^2 \left (v_y - \~{v}_E \right)
+$$
+
+
+We can easily solve this to find that
+
+
+$$
+v_x = v_{\perp} e^{i \omega_c t} + \~{v}_p
+$$
+
+
+$$
+v_y = \pm i v_{\perp} e^{i \omega_c t} + \~{v}_E
+$$
+
+We also see that the equations of motion aren't satisfied unless $\omega^2 \ll \omega_c^2$.
+Making the approximation that $\boldsymbol{E}$ varies slowly, this condition holds, so this is the solution.
+
+### Polarization Effects
+We know that the guiding center motion due to a time-varying electric field.
+Generalizing to arbitrary electric fields, we see that there is a new drift along the direction of $\boldsymbol{E}$, called the polarization drift.
+We find it by replacing $i \omega$ with $\frac{\partial}{\partial t}$, so we can generalize the equation into
+
+
+$$
+\boldsymbol{v}_p = \pm \frac{1}{\omega_c B} \frac{d \boldsymbol{E}}{dt}
+$$
+
+
+Since this is in opposing directions depending on the species of the particle, this particular drift also has an associated polarization.
