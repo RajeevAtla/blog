@@ -532,6 +532,19 @@ However, the grad-B drift is proportional to $kr_L$, whereas this drift is propo
 This means that this effect is only important at relatively large $k$.
 For this reason, drift instabilities belong to another class of instabilites called microinstabilites.
 
-## Time-Varying $E$ Field
+## 2.5: Time-Varying $E$ Field
 Let $\boldsymbol{E}$ point parallel to the x-axis.
 We first consider the case when it varies sinusoidally in time.
+
+
+$$
+E(t)= E_0 e^{i \omega t}
+$$
+
+
+Since $\dot{E} = i \omega E$, we write the equation of motion as
+
+
+$$
+\ddot{v}_x = - \omega_c^2 \left (v_x \np i \frac{\omega E}{\omega_c B} \right)
+$$
