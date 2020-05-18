@@ -513,3 +513,25 @@ $$
 
 Moreover, we can further correct this drift velocity by accounting for the (multi-dimensional) second derivative.
 We do this by substituting $ik$ with $\nabla$.
+Therefore,
+
+$$
+\boldsymbol{v}_E = \left (1 + \frac{1}{4} r_L^2 \nabla^2 \right) \frac{\boldsymbol{E} \times \boldsymbol{B}}{B^2}
+$$
+
+
+This is called the finite-Larmor-radius effect.
+
+Since $r_L$ is much larger for electrons that for protons, the drift velocity is now dependent on species.
+If a density clump occcurs within a plasma, the electric field can cause the different species to separate, resulting in the production of more electric fields.
+If there is a feedback mechanism capable to self-enhancing itself through this effect, the plasma is not stable.
+This instability is called a drift instability, which will be discussed later.
+The grad-B drift is therefore a finite-Larmor-radius effect and also causes charges to separate.
+
+However, the grad-B drift is proportional to $kr_L$, whereas this drift is proportional to $k^2 r_L^2$.
+This means that this effect is only important at relatively large $k$.
+For this reason, drift instabilities belong to another class of instabilites called microinstabilites.
+
+## Time-Varying $E$ Field
+Let $\boldsymbol{E}$ point parallel to the x-axis.
+We first consider the case when it varies sinusoidally in time.
