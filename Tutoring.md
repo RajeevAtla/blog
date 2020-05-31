@@ -5,10 +5,10 @@ comments: true
 categories: misc
 ---
 
-I provide tutoring in physics. 
+I provide free tutoring in physics. 
 
 ## Subjects Offered
-I provide tutoring at the high school, AP, and Olympiad levels.
+I tutor at the high school, AP, and Olympiad levels.
 
 Specifically - AP Physics 1, AP Physics 2, AP Physics C: Mechanics, AP Physics C: Electricity and Magnetism, and the Physics Olympiad.
 
