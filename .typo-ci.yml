@@ -30,6 +30,7 @@ excluded_files:
   - "yarn.lock"
   - "Gemfile.lock"
   - ".typo-ci.yml"
+  - "feed.xml"
 
 # Any typos we should ignore?
 excluded_words:
