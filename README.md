@@ -7,5 +7,3 @@ Hi.
 Welcome to my very own personal website.
 
 Enjoy!
-
-Ported from Netlify.
