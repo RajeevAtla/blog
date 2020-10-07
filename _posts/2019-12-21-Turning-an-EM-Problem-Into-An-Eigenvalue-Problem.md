@@ -94,7 +94,7 @@ Now is the fun (acquired taste ¯\_(ツ)_/¯) part.
 Using the eigenvalues and eigenvectors we solved for, we can say that the general solution for the velocity will be in the form
 
 $$
-\boldsymbol{v} (t) = C_1
+\boldsymbol{v}(t) = C_1
 \begin{pmatrix}
 - i \\
 1 \\
@@ -110,7 +110,7 @@ $$
 We can solve for the initial conditions to find that
 
 $$
-\boldsymbol{v} (t) = v_0 e^{- \frac{\alpha}{m} t}
+\boldsymbol{v}(t) = v_0 e^{- \frac{\alpha}{m} t}
 \begin{pmatrix}
 \sin{\left (\frac{qB}{m} t\right)} \\
 \cos{\left (\frac{qB}{m} t\right)} \\
