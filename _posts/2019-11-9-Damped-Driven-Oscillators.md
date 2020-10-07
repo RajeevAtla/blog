@@ -17,27 +17,21 @@ We could stop here and start to analyze the system, but for the sake of spicines
 
 Anyway, let the amplitude of the oscillations of the force he applies be $F_0$. To make the mathematics easier, we write the force he exerts as a complex exponential:
 
-
 $$
 F(t) = F_0 e^{i \omega t}
 $$
 
-
 But the astute mathematician in you will realize that there is an imaginary part, but we'll take care of that later, so don't worry about it for now. And there is still the spring, so the final force is $F=-kx$. Using F=ma, we can write the equation of motion as
-
 
 $$
 ma + bv + kx = F_0 e^{i \omega t}
 $$
 
-
 To make things a little easier on us, we use dot (Newton, if you remember from calculus, invented this). Recall that $v = \dot{x}$ and $a = \ddot{x}$, so
-
 
 $$
 m \ddot{x} + b \dot{x} + kx = F_0 e^{i \omega t}
 $$
-
 
 Ok, so we got a differential equation, but have no idea how to solve it. Back to Throckmorton!
 
@@ -47,54 +41,42 @@ So after you get over his annoying voice, you decide to pick apart his hint. Wha
 
 If the block oscillates at the same frequency as your friend's hand, we can write $x(t)$ as
 
-
 $$
 x(t) = A e ^ {i \omega t}
 $$
 
-
 Again, we'll comeback to the fact that these are complex numbers later. Moreover, the amplitude $A$, as we will show later, is also a complex number.
 
-
 Substituting this into the equation of motion we found earlier and cancelling factors of $e^{i \omega t}$, we get
-
 
 $$
 A \left (- m \omega^2 + i b \omega + k \right) = F_0 \Rightarrow A = \frac{F_0}{- m \omega^2 + k + ib}
 $$
 
-
 This is a complex number (ಠ╭╮ಠ)
 But this isn't the end of the world. But the spice level just went up to *hot!*. Anyways, remember from math class (I certainly don't, I was probably asleep or on (╯°□°)╯︵ ʞooqǝɔɐɟ ) that a complex number can be written as $A = |A| e ^ {i \phi}$, where $|A|$ is the phase and $\phi$ is the phase. We can multiply both the numerator and denominator of $A$ by the denominator's conjugate and separate componenets to find
-
 
 $$
 A = \frac{F_0 \left (k - m \omega^2 \right)}{(k - m \omega^2)^2 + (b \omega)^2} - i \frac{F_0 b \omega}{(k - m \omega^2)^2 + (b \omega)^2}
 $$
 
-
 So we got ourselves a complex number eh? Taking the magnitude, which is just the Pythagorean sum of the imaginary and real parts, and the phase, whose tangent is the quotient when dividing the imaginary part by the real part,
-
 
 $$
 |A| = \frac{F_0}{\sqrt{(k - m \omega^2)^2 + (b \omega)^2 }}
 $$
 
-
 $$
 \tan \phi = \frac{b \omega}{m \omega^2 - k}
 $$
 
-
 And we're done.
 It can be seen that the maximum amplitude is achieved when $\omega = \sqrt{\frac{k}{m}}$. Recognize this from the boring lessson you managed to sleep through? Yeah, that's right! Its the frequency of a block on a spring!
 
-
 ༼ ºل͟º ༼ ºل͟º ༼ ºل͟º ༽ ºل͟º ༽ ºل͟º ༽
 
 ༼ ºل͟º ༼ ºل͟º ༼ ºل͟º ༽ ºل͟º ༽ ºل͟º ༽
 
 ༼ ºل͟º ༼ ºل͟º ༼ ºل͟º ༽ ºل͟º ༽ ºل͟º ༽
-
 
 (Ending on a cliffhanger lol)

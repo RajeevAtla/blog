@@ -12,7 +12,6 @@ So I cam across a problem when I was doing some EM that I want to share with you
 Consider a region of space in which there is a magnetic field $\boldsymbol{B} = B \boldsymbol{\hat{z}}$. A particle of charge $q$ and mass $m$ is given an initial velocity $\boldsymbol{v}_0 = v_0 \boldsymbol{\hat{y}}$.
 Find the final position of the particle if it is also subject to a damping force $\boldsymbol{F} = - \alpha \boldsymbol{v}$.
 
-
 ## My Solution
 
 First off, a disclaimer: this won't be the most elegant solution, but the most mathematically satisfying one. As always, there are multiple ways to do this problem. The most efficient way is to guess some sinusoidal motion with damping, and solving for the frequencies and coeffiecients.
@@ -23,34 +22,28 @@ Therefore, we only need to consider the x and y-directions in order to use Newto
 
 Using Newton's Second Law in the x-direction,
 
-
 $$
 \dot{v_x} = \frac{qB}{m} v_y - \frac{\alpha}{m} v_x
 $$
 
-
 and in the y-direction,
-
 
 $$
 \dot{v_y} = - \frac{qB}{m} v_x - \frac{\alpha}{m} v_y
 $$
 
-This is a system of differential equations, so we use the method of normal modes, arising from linear algebra. We start by guessing a solution in the form of 
+This is a system of differential equations, so we use the method of normal modes, arising from linear algebra. We start by guessing a solution in the form of
 
-
-$$ 
-\boldsymbol{v} = 
-\begin{pmatrix} 
-A_1 \\ 
-A_2 \\ 
-\end{pmatrix} 
+$$
+\boldsymbol{v} =
+\begin{pmatrix}
+A_1 \\
+A_2 \\
+\end{pmatrix}
 e^{\lambda t}
-$$ 
-
+$$
 
 Subsituting, we find the following matrix equation:
-
 
 $$
 \begin{pmatrix}
@@ -68,34 +61,29 @@ A_2 \\
 \end{pmatrix}
 $$
 
-In order to have nontrivial values for $A_1$ and $A_2$, we require that the left matrix be non-invertible. 
+In order to have nontrivial values for $A_1$ and $A_2$, we require that the left matrix be non-invertible.
 One way it can be non-invertible is if the determinant is 0. Setting it equal to $0$ and solving, we find two solutions, which are the eigenvalues of the matrix, which we denote $\lambda_1$ and $\lambda_2$.
-
 
 $$
 \lambda_1 = -\frac{\alpha}{m} + i \frac{qB}{m}
 $$
 
-
 $$
 \lambda_2 = - \frac{\alpha}{m} - i \frac{qB}{m}
 $$
 
-
 The eigenvectors can be found by substituting the eigenvalues into the matrix and using Gaussian elimination to solve for $A_1$ and $A_2$. Let the respective eigenvectors be $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$.
 
-
 $$
-\boldsymbol{e}_1 = 
+\boldsymbol{e}_1 =
 \begin{pmatrix}
 - i \\
 1 \\
 \end{pmatrix}
 $$
 
-
 $$
-\boldsymbol{e}_2 = 
+\boldsymbol{e}_2 =
 \begin{pmatrix}
 i \\
 1 \\
@@ -105,9 +93,8 @@ $$
 Now is the fun (acquired taste ¯\_(ツ)_/¯) part.
 Using the eigenvalues and eigenvectors we solved for, we can say that the general solution for the velocity will be in the form
 
-
 $$
-\boldsymbol{v} (t) = C_1 
+\boldsymbol{v} (t) = C_1
 \begin{pmatrix}
 - i \\
 1 \\
@@ -145,7 +132,6 @@ We graph this using Asymptote (because we can).
 ![Diagram 3]({{ site.url }}/assets/images/diagram3.png "Diagram 3")
 
 We see that the final position of the particle is at
-
 
 $$
 (x, y) = \frac{ v_0}{\left (\frac{\alpha}{m} \right)^2 + \left (\frac{qB}{m} \right)^2 } \left (\frac{qB}{m}, \frac{\alpha}{m} \right)

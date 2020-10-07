@@ -7,7 +7,6 @@ categories: misc
 
 I'm beginning a new adventure!
 
-
 Anyways, I'll be reading the book *Introduction to Plasma Physics and Controlled Fusion* by Francis F. Chen.
 I've scoured the internet for plasma physics books to read and I really do think that this is the best way to learn.
 
@@ -22,6 +21,7 @@ Hopefully, this will allow me to balance breadth and depth.
 That's all for today! Stay safe folks!
 
 Status:
+
 - [X] [Chapter 1]({{ site.url }}/plasmaphysics/2020/01/11/Intro-To-Plasma-Physics.html)
 - [X] [Chapter 2]({{ site.url }}/plasmaphysics/2020/02/22/More-Plasma-Physics.html)
 - [ ] Chapter 3 is currently being read and will be posted in the near future
