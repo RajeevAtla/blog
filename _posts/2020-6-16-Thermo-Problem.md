@@ -6,3 +6,5 @@ categories: misc
 ---
 
 I've realized that there are very few topics of physics covered on this site, so this post is meant to fix it a little bit.
+Let's do a thermodynamics problem today then.
+
