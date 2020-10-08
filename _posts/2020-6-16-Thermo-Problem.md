@@ -16,7 +16,7 @@ Let's get started, shall we?
 
 The energy of a photon is $E=pc$.
 Treating the photon as a classical object, compute the average energy of a photon at temperature $T$.
-In addition, find $\gamma$ for a 3D photon gas.
+In addition, find the adiabatic index $\gamma$ for a 3D photon gas.
 
 ## Solution
 
@@ -54,4 +54,21 @@ $$
 \boxed{\left \langle E \right \rangle = 3 k_B T}
 $$
 
-Finally, we can use this to finish off the problem
+Finally, we can use this to finish off the problem.
+Recall from statistical mechanics that the volumetric heat coefficient is
+
+$$
+C_V = \frac{\partial \langle E \rangle}{\partial T} \bigg \vert_V = 3k_B
+$$
+
+We can also use the fact that $C_P = C_V + k_B$ to find that
+
+$$
+C_P = 4 k_B
+$$
+
+Finally, since $\gamma = \frac{C_P}{C_V}$, so finally
+
+$$
+\boxed{\gamma = \frac{4}{3}}
+$$
