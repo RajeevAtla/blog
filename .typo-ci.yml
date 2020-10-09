@@ -43,6 +43,7 @@ excluded_words:
   - bigg
   - ddot
   - mathjax
+  - thermo
 
 # Would you like filenames to also be spellchecked?
 spellcheck_filenames: true
