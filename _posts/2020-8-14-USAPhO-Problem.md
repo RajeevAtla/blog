@@ -121,7 +121,7 @@ draw(g, arrow = Arrow(HookHead));
 
 ```
 
-![Diagram 3]({{ site.url }}/assets/images/diagram3.png "Diagram 3")
+![Diagram 6]({{ site.url }}/assets/images/diag6/diag6.png "Diagram 3")
 
 We see that $m = 4.09$ and $b = 0.713$.
 Solving the equations above, we see that
