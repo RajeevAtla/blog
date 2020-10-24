@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: "Another, Another One"
+title: "A USAPhO Problem"
 categories: misc
 ---
 
