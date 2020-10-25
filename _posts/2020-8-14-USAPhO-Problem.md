@@ -70,6 +70,7 @@ We first compute $R^2$ and $T^2 R$ for each data point given and report the resu
 |0.346|2.12|
 
 To graph this, we use Asymptote, because it looks cool and because we can.
+I've also included the code below, in case you wanted to tinker with the display.
 
 ```Asymptote
 [asy]
