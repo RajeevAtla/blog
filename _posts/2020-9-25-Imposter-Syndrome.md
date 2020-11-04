@@ -38,6 +38,7 @@ But then came the actual leadership part - having people look towards you, as a 
 
 For some people, like the captain before me, this came naturally.
 He just exuded that confidence and charisma like it was his middle name.
+Just being around him, you had to bow down; he was just a natural leader - basically the opposite of me.
 Naturally, I felt like I was in his shadow.
 
 And this just worsened the imposter syndrome I had been feeling up to that point.
