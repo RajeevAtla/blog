@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 title: "On Confronting Imposter Syndrome"
-categories: misc
+categories:
 ---
 
 All my life I've had this fear, and I suppose my Enneagram Type 3 matches up, of being worthless and being exposed to everyone about this.
