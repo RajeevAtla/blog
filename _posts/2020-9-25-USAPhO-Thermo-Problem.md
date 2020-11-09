@@ -21,7 +21,7 @@ With some ease, we can say
 |---|---|---|---|
 | 1 | $P_0$ | $V_0$ | $T_0$ |
 | 2 | $\alpha P_0$ | $ V_0 $ | $\alpha T_0$ |
-| 3 | & | $P_0 V_0 \alpha^{\frac{1}{\gamma}}$ | | $T_0 \alpha^{\frac{1}{\gamma}}$ |
+| 3 | & | $P_0 V_0 \alpha^{\frac{1}{\gamma}}$ | $T_0 \alpha^{\frac{1}{\gamma}}$ |
 | 4 | $P_0$ | $V_0$ | $T_0$ |
 
 Here, we have use the ideal gas law and the adiabatic law that states $PV^{\gamma}$ is constant in an adiabatic process, where $\gamma = \frac{C_P}{C_V}$ is the adiabatic index.
@@ -114,7 +114,7 @@ To take care of the units (or lack thereof), we take the base 10 (or really any 
 We have
 
 $$
-log_{10}{P} = C + \frac{\gamma}{\gamma - 1} \log_{10}{T}
+\log_{10}{P} = C + \frac{\gamma}{\gamma - 1} \log_{10}{T}
 $$
 
 This means that the graph of $log_{10}{P}$ vs. $\log_{10}{T}$ has a slope of $\frac{\gamma}{\gamma - 1}$.
