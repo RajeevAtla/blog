@@ -17,15 +17,12 @@ Let us label the states through which the gas is taken through as 1, 2, 3, and 4
 
 With some ease, we can say
 
-$$
-\begin{tabular}{c | c | c | c}
- & P & V & T \\
-1 & P_0 & V_0 & T_0 \\
-2 & \alpha P_0 & V_0 & \alpha T_0 \\
-3 & P_0 V_0 \alpha^{\frac{1}{\gamma}} & T_0 \alpha^{\frac{1}{\gamma}} \\
-4 & P_0 & V_0 & T_0 \\
-\end{tabular}
-$$
+| Index | $P$ | $V$ | $T$ |
+|---|---|---|---|
+| 1 | $P_0$ | $V_0$ | $T_0$ |
+| 2 | $\alpha P_0$ | $ V_0 $ | $\alpha T_0$ |
+| 3 | & | $P_0 V_0 \alpha^{\frac{1}{\gamma}}$ | | $T_0 \alpha^{\frac{1}{\gamma}}$ |
+| 4 | $P_0$ | $V_0$ | $T_0$ |
 
 Here, we have use the ideal gas law and the adiabatic law that states $PV^{\gamma}$ is constant in an adiabatic process, where $\gamma = \frac{C_P}{C_V}$ is the adiabatic index.
 
@@ -76,7 +73,7 @@ label("$Q_3 (\alpha^{\frac{1}{\gamma}} V_0, P_0)$", (Vnaught * alpha^(1.0/(gamma
 
 But all this code would be almost meaningless without the actual diagram, so here it is.
 
-## TODO: Insert Diagram
+![Diagram 7]({{ site.url }}/assets/images/diag7/diag7.png "Diagram 7")
 
 The next part of this problem asks us to find the efficiency.
 The efficiency is defined as $\eta = 1 - \frac{Q_{\text{out}}}{Q_{\text{in}}}$.
@@ -125,17 +122,13 @@ This means that we have a way to measure $\gamma$ - through the slope, which we 
 
 First, we find the log of both the temperature and the pressure at each data point.
 
-$$
-\begin{tabular}{||c|c||}
-\log_{10}{T} & \log_{10}{P} \\
-\hline
-0.324 & 0.0828 \\
-0.344 & 0.149 \\
-0.358 & 0.201 \\
-0.369 & 0.238 \\
-0.369 & 0.330 \\
-\end{tabular}
-$$
+|$\log_{10}{T}$| $\log_{10}{P}$ |
+|---|---|
+|0.324 | 0.0828 |
+|0.344 | 0.149 |
+|0.358 | 0.201 |
+|0.369 | 0.238 |
+|0.369 | 0.330 |
 
 Using this data, we get a slope of around 3.5.
 This means that $\gamma \approx 1.4$, which means the sample is approximately diatomic, which is expected for normal air.
