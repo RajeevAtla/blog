@@ -4,7 +4,7 @@ author:
   email: rajeev@rajeevatla.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Personal website of an aspring physicist with interests in computational sciences and entrepreneurship.
-url: https://rajeevatla.com
+url: "https://rajeevatla.com"
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -65,3 +65,4 @@ plugins:
  - jekyll-seo-tag
  - jemoji
  - jekyll-feed
+ - jekyll-sitemap
