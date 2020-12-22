@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: "School Starts... Again"
+title: "A Physics Analogy of School Starting Again"
 categories: misc
 ---
 
