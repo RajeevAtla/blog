@@ -16,3 +16,5 @@ For math - Any high school or middle school math, AMC8, and college math up to a
 
 ## Sign Up
 If you would like to receive tutoring, please fill out this [Google form](https://forms.gle/MS47k5ck8Eykjwk97).
+
+**In light of the COVID-19 pandemic, priority will be given to the children of front-line workers.**
