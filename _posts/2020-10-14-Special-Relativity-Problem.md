@@ -33,8 +33,8 @@ c \frac{dt}{d \tau} \\
 =
 \gamma
 \begin{pmatrix}
-c
-\mathbf{v}
+c \\
+\mathbf{v} \\
 \end{pmatrix}
 $$
 
