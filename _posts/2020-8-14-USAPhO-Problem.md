@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "A USAPhO Problem"
 categories: misc
+comments: true
 ---
 
 Today, we will be doing one of my favorite problems of all time: [USAPhO 2011 A2!](https://aapt.org/physicsteam/2019/upload/USAPhO-2011.pdf).

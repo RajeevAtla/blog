@@ -2,6 +2,7 @@
 layout: post
 title: "A Poem"
 categories: misc
+comments: true
 ---
 
 E̓rͯro͙rs͒ ̲aͪreͭ ̮r̠ed

@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "Rotating Special Relativity"
 categories: misc
+comments: true
 ---
 
 When in the course of doing physics problems (man, I should *really* stop listening to Hamilton), you find yourself at the intersection of what seems to be two different fields.

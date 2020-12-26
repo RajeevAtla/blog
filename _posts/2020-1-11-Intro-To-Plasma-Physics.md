@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "My First Experience With Plasma Physics"
 categories: PlasmaPhysics
+comments: true
 ---
 These are my notes for Chapter 1 of *Introduction to Plasma Physics and Controlled Fusion* by Francis F. Chen.
 

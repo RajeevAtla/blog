@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "Earnshaw's Theorem"
 categories: misc
+comments: true
 ---
 
 So it's come to my attention that my blog doesn't really have that many EM problems on it, so I decided to prove Earnshaw's theorem.

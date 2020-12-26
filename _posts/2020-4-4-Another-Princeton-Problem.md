@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "Another Princeton Problem"
 categories: misc
+comments: true
 ---
 
 Turns out Princeton makes some really, really good problems to do if you like doing physics.

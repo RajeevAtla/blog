@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "An Interesting Kinematics Problem"
 categories: misc
+comments: true
 ---
 
 I was reviewing kinematics (for fun, of course) because its my favorite physics topic because of its extreme relevance to the real world.

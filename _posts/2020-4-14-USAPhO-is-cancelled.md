@@ -2,6 +2,7 @@
 layout: post
 title: "USAPhO is Cancelled"
 categories: misc
+comments: true
 ---
 
 For context, I've been preparing for the USAPhO (United States of America PHysics Olympiad) for the past 2 years. Due to COVID-19, its now cancelled.

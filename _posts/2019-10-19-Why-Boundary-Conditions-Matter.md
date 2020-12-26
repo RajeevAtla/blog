@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "Why Boundary Conditions Matter"
 categories: misc
+comments: true
 ---
 
 In this article, we are going to talk about some boundary conditions. I sound (▀̿Ĺ̯▀̿ ̿) when I'm talking about this lol.

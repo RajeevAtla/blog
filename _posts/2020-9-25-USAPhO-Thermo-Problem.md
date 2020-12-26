@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "USAPhO 2012 A2"
 categories: misc
+comments: true
 ---
 
 We're gonna do another one of my favorites today: [USAPhO 2012 A2!](https://aapt.org/physicsteam/2013/upload/E3-2-3.pdf).

@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "Damped, Driven Oscillator"
 categories: misc
+comments: true
 ---
 
 Alright, so we've all seen what a simple harmonic oscillator is and how to solve its equation (I hope). So let's move into more spicy territory, shall we?

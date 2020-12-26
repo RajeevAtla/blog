@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "A Physics Analogy of School Starting Again"
 categories: misc
+comments: true
 ---
 
 It's been a great summer, and I hope I really get to interact with the people I talked to over the summer.

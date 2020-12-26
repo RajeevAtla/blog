@@ -3,6 +3,7 @@ layout: post
 mathjax: false
 title: "An Attempt at a Graduation Speech"
 categories: misc
+comments: true
 ---
 
 I've realized that I'll probably never get to give a graduation speech, so here it is: a little early though.

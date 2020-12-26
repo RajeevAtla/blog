@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "A Nice(ish) Eigenvalue Problem"
 categories: misc
+comments: true
 ---
 
 So I cam across a problem when I was doing some EM that I want to share with you today.

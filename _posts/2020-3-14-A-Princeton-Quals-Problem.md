@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "Princeton Makes Good Problems"
 categories: misc
+comments: true
 ---
 
 First of all, happy Pi Day!!!

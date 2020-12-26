@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "Another, Another One"
 categories: misc
+comments: true
 ---
 
 Let's keep our pattern of posting Princeton's Graduate Qualifier exams.

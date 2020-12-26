@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "More Plasma, More Captain Phasma"
 categories: PlasmaPhysics
+comments: true
 ---
 These are my notes for Chapter Two of *Introduction to Plasma Physics and Controlled Fusion* by Francis F. Chen. Its really a great book and its available online, so I would recommend that you check it out!
 

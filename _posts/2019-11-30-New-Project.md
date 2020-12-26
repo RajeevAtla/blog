@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "Target Acquired: Plasma Physics"
 categories: misc
+comments: true
 ---
 
 I'm beginning a new adventure!

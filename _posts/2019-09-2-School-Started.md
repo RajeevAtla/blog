@@ -3,6 +3,7 @@ layout: post
 mathjax: true
 title: "High School Pt. 3 + AP Exam Results"
 categories: misc
+comments: true
 ---
 
 School just started again!!!!
