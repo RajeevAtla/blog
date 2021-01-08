@@ -1,0 +1,247 @@
+\documentclass[11pt, letterpaper]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{fontawesome}
+\usepackage{nameref}
+\usepackage{epigraph}
+\usepackage{etoolbox}
+\usepackage{titlesec}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[letterpaper, portrait, margin=1in]{geometry}
+\usepackage{hyperref}
+
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\thedate}{\today}
+\renewcommand{\headrulewidth}{1pt}
+
+\setlength\epigraphwidth{4.25in}
+\setlength\epigraphrule{0pt}
+
+\makeatletter
+\patchcmd{\epigraph}{\@epitext{#1}}{\itshape\@epitext{#1}}{}{}
+\makeatother
+
+\makeatletter
+\pretocmd{\@startsection}% <cmd>
+  {\@namedef{@sectype}{#1}}% <pre>
+  {}{}% <success><failure>
+\patchcmd{\@sect}% <cmd>
+  {\@xsect}% <search>
+  {\@namedef{\@sectype title}{#8}\@xsect}% <replace>
+  {}{}% <success><failure>
+\patchcmd{\@ssect}% <cmd>
+  {\@xsect}% <search>
+  {\@namedef{\@sectype title}{#5}\@xsect}% <replace>
+  {}{}% <success><failure>
+\makeatother
+
+\everymath{\displaystyle}
+
+\newcommand*{\currentname}{\@currentlabelname}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\chead{\textit{Guide for Science Bowl Captains}}
+\lhead{Last Updated: \today}
+\rhead{\leftmark}
+\cfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+\lfoot{\faCopyright\ 2021 Rajeev Atla}
+\rfoot{\rightmark}
+
+
+
+
+
+\begin{document}
+
+\setlength{\parindent}{0.5in}
+
+\titleformat{\section}{\normalfont\Large\bfseries}{\color{red}\S \thesection}{0.5em}{}
+\titleformat{\subsection}{\normalfont\Large\bfseries}{\color{olive}\S \thesubsection}{0.5em}{}
+\titleformat{\subsubsection}{\normalfont\Large\bfseries}{\color{blue}\S \thesubsubsection}{0.5em}{}
+
+
+\begin{center}
+    \Large \textbf{Guide for Science Bowl Captains}
+\end{center}
+\begin{center}
+    \Large Rajeev Atla
+\end{center}
+\begin{center}
+    \Large \today
+\end{center}
+
+\noindent Some beginning notes:
+\begin{itemize}
+    \item For internal use only i.e. if you aren't a Science Bowl captain, this document probably won't teach you that much
+    \item Feel free to contact me ASAP at rajeev@rajeevatla.com if there's anything wrong and/or confusing
+    \item Made using \LaTeX\ and I can provide the source file, should you need it $\to$ just email me!
+\end{itemize}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{About Me}
+
+
+
+\epigraph{"If you cannot be the poet, be the poem."}{--- \textup{David Carradine}}
+
+
+I'm Rajeev Atla.
+I was captain of the John P. Stevens High School Science Bowl Team during the years 2019-2020 and 2020-2021.
+I was known as the clowniest captain in existence (although there are some who would contest this title), so writing this guide was tricky.
+Feel free to reach out to me on Facebook or email me if you have any questions.
+
+\newpage
+
+\epigraph{"Nobody can give you wiser advice than yourself."}{--- \textup{Marcus Tullius Cicero}}
+
+\section{General Advice}
+
+Note: this section will probably be updated later. Check back for updates.
+
+\begin{itemize}
+    \item It’s usually very beneficial to have a co-captain, especially if you're a senior
+    \begin{itemize}
+        \item Make this co-captain be a junior (if possible), so you can focus on college apps for the first half of the year
+        \item Don't underestimate senioritis
+    \end{itemize}
+    \item Get started with tryouts etc. as soon as possible
+    \begin{itemize}
+        \item Leaves you with more time to get team in shape
+    \end{itemize}
+    \item Have as many scrimmages as possible
+    \begin{enumerate}
+        \item Find other captains via Facebook, Discord, Instagram, etc.
+        \item Introduce yourself
+        \item Ask for scrimmage
+        \item Figure out time and place
+    \end{enumerate}
+    \item Sign up for invitationals
+    \begin{itemize}
+        \item MIT usually has one (we went in 2020!)
+        \item Stuy and CHS each hosted one a couple of years back
+    \end{itemize}
+\end{itemize}
+
+\newpage
+
+\section{Co-Captains}
+\epigraph{"Two there should be; no more, no less. One to embody the power, the other to crave it. The Rule of Two." }{--- \textup{Darth Bane}}
+
+Working with another captain can be really fun, but also really stressful and frustrating.
+From experience, I'd say the most important things here are communication and commitment.
+
+
+
+\newpage
+
+\section{Summer Reading}
+\epigraph{"Don't you ever feel like, what if the world really is messed up? What if we could it all over again from scratch? No more war. Nobody homeless. No more summer reading homework.}{--- \textup{Annabeth Chase}, The Sea of Monsters}
+
+Let's say you become the captain for year $n$.
+In the last couple of months of year $n-1$, you will receive a summer reading assignment (SRA).
+The one who informs you will usually be the exiting captain or your co-captain next year.
+
+Please take this seriously! 
+There is nothing worse than a captain who doesn't know what he/she is doing.
+The SRA is meant to give you a theoretical grounding in how to lead an organization and is designed as such.
+It's not much work if you plan ahead.
+You should share your reading schedule with your co-captain or the captain that exited in year $n-1$.
+
+\newpage
+
+\section{Tryouts}
+
+It's recommended that you start talking to the advisor as soon as possible about when to startup the season.
+The usual steps (in a non-COVID year) are as follows:
+
+\begin{enumerate}
+    \item Club fair
+    \item Have an interest meeting.
+    \item Round 1 of tryouts
+    \item Round 2 of tryouts
+    \item Select the team
+\end{enumerate}
+
+\subsection{Interest Meeting}
+
+The interest meeting is the very first part of the season.
+It's always important to start strong!
+Therefore, you should come prepared to the interest meeting.
+Most of the kids here have signed up at club fair, \textbf{but not vice versa} i.e. many applicants will skip this step.
+This will be fine for most, but you have to make sure you email out the slides used to everyone.
+
+\noindent
+The slides are in the Science Bowl email account.
+Feel free to improve them!
+
+\subsection{Round 1 of Tryouts}
+
+Fun fact: once upon a time, there was only one round of buzzer-based tryouts and nothing else.
+The extra round of tryouts was necessitated by Science Bowl's growing popularity as a club.
+In a given year, about $\sim 100$ people apply to be a part of the club.
+We simply don't have the buzzer space to test them all, so a preliminary test is necessary.
+
+The preliminary test should have a combination of multiple choice and short answer questions across all subjects.
+Beware that many will guess their way through the multiple choice questions and by definition have a $\frac{1}{4}$ chance of getting such a question right.
+It's recommended that you account for this effect when grading tests.
+
+From experience, putting the test on a computer will naturally incline some to cheat.
+Put those who do cheat on a blacklist (see Science Bowl account's Google Drive) and never allow them to tryout again.
+Make sure you document the evidence of cheating as well.
+
+To try to avoid these issues, it's recommended that you put Round 1 of tryouts on paper.
+This way, you'll be able to somewhat avoid these issues, although they still happen.
+The blacklist is still useful here.
+
+If you do decide to make Round 1 on paper, I'd recommend using \LaTeX for the exam.
+This way, the more technical subjects (math, physics, and sometimes chemistry) are more clearly typeset and you can do more types of questions.
+
+\subsubsection{Logistics}
+
+Round 1 should be timed, so someone has to be watching the clock and telling applicants the time at appropriate intervals.
+I'd recommend a few people to walk around to watch people cheating.
+
+\subsubsection{Scoring Round 1}
+
+There's no way to put this lightly: scoring Round 1 (especially if it's on paper) will \textbf{suck time!}
+It's recommended that you actually schedule time for this.
+Make sure you don't have anything else you need to do that day.
+
+\subsubsection{Advancement into Round 2}
+On an actual buzzer, you can only have 10 people in a round.
+Therefore, it's feasible to just take the top 10 in each subject.
+However, who moves on is ultimately up to the captain and you should pick whoever you think has the best chance of doing well.
+
+That being said, one strategy to beware of is optimizing for total score.
+This was unfortunately done one year.
+Round 2 was hard to watch because \textbf{generalists will fail Science Bowl!}
+The kids we really need are those who are specialists in a few core subjects (at least 2, 3 is optimal), so try to find a selection procedure that optimizes for this metric.
+
+\subsection{Round 2 of Tryouts}
+
+Round 2 is especially important because it simulates how well an applicant does in an actual Science Bowl environment, which is by far, the most useful metric to optimize for.
+It's therefore all the more important to make sure no one cheats.
+Although it is hard, there have been cases in the past where people use their phones to lookup answers by hiding their phones in plain sight.
+It's recommended that you collect everyone's phones prior to Round 2.
+Again, the blacklist is a good idea here.
+
+\subsubsection{Logistics}
+1 person needs to read questions.
+1 person needs to keep score.
+1 person needs to keep the buzzer, and reset it as necessary.
+That's 3 people, but this is the bare minimum.
+You might find it beneficial for someone to take attendance and/or someone to watch the applicants so that they don't try to cheat.
+Again, this is your call, as this isn't required.
+
+
+
+\end{document}
