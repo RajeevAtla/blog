@@ -24,7 +24,7 @@ The main idea here is to use the standard method of dealing with rotating motion
 The proper velocity $\boldsymbol{u}$ is, letting $\tau$ be the proper time and $\boldsymbol{x}$ the 4-position.
 
 $$
-\boldsymbol{u} = \frac{d \boldsymbol{x}}{d \tau} =
+\overrightarrow{u} = \frac{d \boldsymbol{x}}{d \tau} =
 \begin{pmatrix}
 c \frac{dt}{d \tau} \\
 \frac{dx}{d \tau} \\
