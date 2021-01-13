@@ -18,4 +18,4 @@ I'd like to help out those who come in the future by writing a guide for these f
 I've used $\LaTeX$ for both my own and everyone who's gotta look at it.
 Asking my club advisor, I've made sure that all incoming captains get a copy as soon as they get the position.
 
- {% pdf "/assets/documents/guide.pdf" %}
+[guide](https://rajeevatla.com/assets/documents/guide.pdf)
