@@ -14,7 +14,7 @@ Regardless of the cause, experimental studies show that the force is proportiona
 
 $F = -bv$
 
-We could stop here and start to analyze the system, but for the sake of spiciness, we move on to something more. Remember your old friend Throckmorton? Well yeah, for the sake of being annoying, he's screwing with your experiment and moving the place the spring is rooted in. But he is still your friend, so instead of moving it around in a random way, he moves the support exactly sinusoidally, and avoids having you look up integrals (very fun, but an acquired taste). Here, Throckmorton also helps out your grades in your physics class by making you learn some new physics, so be semi-appreciative of him, but only sometimes! ༼ つ  ͡° ͜ʖ ͡° ༽つ
+We could stop here and start to analyze the system, but for the sake of spiciness, we move on to something more. Remember your old friend Throckmorton? Well yeah, for the sake of being annoying, he's screwing with your experiment and moving the place the spring is rooted in. But he is still your friend, so instead of moving it around in a random way, he moves the support exactly sinusoidally, and avoids having you look up integrals (very fun, but an acquired taste). Here, Throckmorton also helps out your grades in your physics class by making you learn some new physics, so be semi-appreciative of him, but only sometimes! ༼ つ ͡° ͜ʖ ͡°༽つ
 
 Anyway, let the amplitude of the oscillations of the force he applies be $F_0$. To make the mathematics easier, we write the force he exerts as a complex exponential:
 
@@ -22,13 +22,15 @@ $$
 F(t) = F_0 e^{i \omega t}
 $$
 
-But the astute mathematician in you will realize that there is an imaginary part, but we'll take care of that later, so don't worry about it for now. And there is still the spring, so the final force is $F=-kx$. Using F=ma, we can write the equation of motion as
+But the astute mathematician in you will realize that there is an imaginary part, but we'll take care of that later, so don't worry about it for now.
+And there is still the spring, so the final force is $F=-kx$.
+Using F=ma, we can write the equation of motion as
 
 $$
 ma + bv + kx = F_0 e^{i \omega t}
 $$
 
-To make things a little easier on us, we use dot (Newton, if you remember from calculus, invented this). Recall that $v = \dot{x}$ and $a = \ddot{x}$, so
+To make things a little easier on us, we use dot notation (Newton, if you remember from calculus class, invented this). Recall that $v = \dot{x}$ and $a = \ddot{x}$, so
 
 $$
 m \ddot{x} + b \dot{x} + kx = F_0 e^{i \omega t}
@@ -72,7 +74,9 @@ $$
 $$
 
 And we're done.
-It can be seen that the maximum amplitude is achieved when $\omega = \sqrt{\frac{k}{m}}$. Recognize this from the boring lessson you managed to sleep through? Yeah, that's right! Its the frequency of a block on a spring!
+It can be seen that the maximum amplitude is achieved when $\omega = \sqrt{\frac{k}{m}}$.
+Recognize this from the boring lessson you managed to sleep through?
+Yeah, that's right! Its the frequency of a block on a spring!
 
 ༼ ºل͟º ༼ ºل͟º ༼ ºل͟º ༽ ºل͟º ༽ ºل͟º ༽
 
