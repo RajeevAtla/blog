@@ -21,10 +21,10 @@ He wants you to find the magnitude of the force he has to exert to spin his yo-y
 
 We assume that Superman's hand is at the origin in the xy-plane and that the yo-yo spins in the xy-plane only.
 The main idea here is to use the standard method of dealing with rotating motion, but using the *proper velocity* instead of simply using the *velocity*.
-The proper velocity $\boldsymbol{u}$ is, letting $\tau$ be the proper time and $\boldsymbol{x}$ the 4-position.
+The proper velocity $\overrightarrow{u}$ is, letting $\tau$ be the proper time and $\overrightarrow{x}$ the 4-position.
 
 $$
-\overrightarrow{u} = \frac{d \boldsymbol{x}}{d \tau} =
+\overrightarrow{u} = \frac{d \overrightarrow{x}}{d \tau} =
 \begin{pmatrix}
 c \frac{dt}{d \tau} \\
 \frac{dx}{d \tau} \\
@@ -35,15 +35,15 @@ c \frac{dt}{d \tau} \\
 \gamma
 \begin{pmatrix}
 c \\
-\boldsymbol{v} \\
+\overrightarrow{v} \\
 \end{pmatrix}
 $$
 
-Here $\boldsymbol{v}$ is a 3-vector.
-The components of $\boldsymbol{v}$ are easily found, as we can just use basic kinematics and geometry.
+Here $\overrightarrow{v}$ is a 3-vector.
+The components of $\overrightarrow{v}$ are easily found, as we can just use basic kinematics and geometry.
 
 $$
-\boldsymbol{v}
+\overrightarrow{v}
 =
 \begin{pmatrix}
 \frac{dx}{dt} \\
@@ -62,7 +62,7 @@ Here, $z_0$ is a constant representative of the height of Superman's hand, so th
 The first two components are fairly easy to evaluate.
 
 $$
-\boldsymbol{v}
+\overrightarrow{v}
 =
 \begin{pmatrix}
 \omega r \cos{\omega t} \\
@@ -71,17 +71,17 @@ $$
 \end{pmatrix}
 $$
 
-Therefore, the magnitude of $\boldsymbol{v}$
+Therefore, the magnitude of $\overrightarrow{v}$
 
 $$
-\left | \boldsymbol{v} \right | = \omega r
+\left | \overrightarrow{v} \right | = \omega r
 $$
 
 This makes sense.
 Now we can write the proper velocity.
 
 $$
-\boldsymbol{u}
+\overrightarrow{u}
 =
 \gamma
 \begin{pmatrix}
@@ -104,7 +104,7 @@ However, we need the 4-momentum, not the normal momentum.
 But that's simple to find, since we have the proper velocity and can simply multiply by mass.
 
 $$
-\boldsymbol{P} = \frac{m \omega r}{\sqrt{1 - \frac{\omega^2 r^2}{c^2}}}
+\overrightarrow{P} = \frac{m \omega r}{\sqrt{1 - \frac{\omega^2 r^2}{c^2}}}
 \begin{pmatrix}
 0 \\
 \cos{\omega t} \\
@@ -117,7 +117,7 @@ As we recalled earlier, force is the derivative of momentum.
 We can simply do this to find
 
 $$
-\boldsymbol{f} = \frac{d\boldsymbol{P}}{dt} = \frac{m \omega^2 r}{\sqrt{1 - \frac{\omega^2 r^2}{c^2}}}
+\overrightarrow{f} = \frac{d\overrightarrow{P}}{dt} = \frac{m \omega^2 r}{\sqrt{1 - \frac{\omega^2 r^2}{c^2}}}
 \begin{pmatrix}
 0 \\
 \cos{\omega t} \\
@@ -129,5 +129,5 @@ $$
 Taking the magnitude,
 
 $$
-\boxed{\left| \boldsymbol{f} \right| = \frac{m \omega^2 r}{\sqrt{1 - \frac{\omega^2 r^2}{c^2}}}}
+\boxed{\left| \overrightarrow{f} \right| = \frac{m \omega^2 r}{\sqrt{1 - \frac{\omega^2 r^2}{c^2}}}}
 $$
