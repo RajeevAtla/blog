@@ -14,7 +14,11 @@ Regardless of the cause, experimental studies show that the force is proportiona
 
 $F = -bv$
 
-We could stop here and start to analyze the system, but for the sake of spiciness, we move on to something more. Remember your old friend Throckmorton? Well yeah, for the sake of being annoying, he's screwing with your experiment and moving the place the spring is rooted in. But he is still your friend, so instead of moving it around in a random way, he moves the support exactly sinusoidally, and avoids having you look up integrals (very fun, but an acquired taste). Here, Throckmorton also helps out your grades in your physics class by making you learn some new physics, so be semi-appreciative of him, but only sometimes! ༼ つ ͡° ͜ʖ ͡°༽つ
+We could stop here and start to analyze the system, but for the sake of spiciness, we move on to something more.
+Remember your old friend Throckmorton?
+Well yeah, for the sake of being annoying, he's screwing with your experiment and moving the place the spring is rooted in.
+But he is still your friend, so instead of moving it around in a random way, he moves the support exactly sinusoidally, and avoids having you look up integrals (very fun, but an acquired taste).
+Here, Throckmorton also helps out your grades in your physics class by making you learn some new physics, so be semi-appreciative of him, but only sometimes! ༼ つ ͡° ͜ʖ ͡°༽つ
 
 Anyway, let the amplitude of the oscillations of the force he applies be $F_0$. To make the mathematics easier, we write the force he exerts as a complex exponential:
 
@@ -57,13 +61,15 @@ A \left (- m \omega^2 + i b \omega + k \right) = F_0 \Rightarrow A = \frac{F_0}{
 $$
 
 This is a complex number (ಠ╭╮ಠ)
-But this isn't the end of the world. But the spice level just went up to *hot!*. Anyways, remember from math class (I certainly don't, I was probably asleep or on (╯°□°)╯︵ ʞooqǝɔɐɟ ) that a complex number can be written as $A = |A| e ^ {i \phi}$, where $|A|$ is the phase and $\phi$ is the phase. We can multiply both the numerator and denominator of $A$ by the denominator's conjugate and separate componenets to find
+But this isn't the end of the world. But the spice level just went up to *hot!*. Anyways, remember from math class (I certainly don't, I was probably asleep or on (╯°□°)╯︵ ʞooqǝɔɐɟ ) that a complex number can be written as $A = |A| e ^ {i \phi}$, where $|A|$ is the phase and $\phi$ is the phase.
+We can multiply both the numerator and denominator of $A$ by the denominator's conjugate and separate componenets to find
 
 $$
 A = \frac{F_0 \left (k - m \omega^2 \right)}{(k - m \omega^2)^2 + (b \omega)^2} - i \frac{F_0 b \omega}{(k - m \omega^2)^2 + (b \omega)^2}
 $$
 
-So we got ourselves a complex number eh? Taking the magnitude, which is just the Pythagorean sum of the imaginary and real parts, and the phase, whose tangent is the quotient when dividing the imaginary part by the real part,
+So we got ourselves a complex number eh?
+Taking the magnitude, which is just the Pythagorean sum of the imaginary and real parts, and the phase, whose tangent is the quotient when dividing the imaginary part by the real part,
 
 $$
 |A| = \frac{F_0}{\sqrt{(k - m \omega^2)^2 + (b \omega)^2 }}
