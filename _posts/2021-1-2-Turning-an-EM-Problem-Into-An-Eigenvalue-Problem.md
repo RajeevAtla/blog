@@ -10,15 +10,15 @@ So I cam across a problem when I was doing some EM that I want to share with you
 
 ## Problem (BAUPC 1997)
 
-Consider a region of space in which there is a magnetic field $\boldsymbol{B} = B \boldsymbol{\hat{z}}$. A particle of charge $q$ and mass $m$ is given an initial velocity $\boldsymbol{v}_0 = v_0 \boldsymbol{\hat{y}}$.
-Find the final position of the particle if it is also subject to a damping force $\boldsymbol{F} = - \alpha \boldsymbol{v}$.
+Consider a region of space in which there is a magnetic field $\vec{B} = B \vec{\hat{z}}$. A particle of charge $q$ and mass $m$ is given an initial velocity $\vec{v}_0 = v_0 \vec{\hat{y}}$.
+Find the final position of the particle if it is also subject to a damping force $\vec{F} = - \alpha \vec{v}$.
 
 ## My Solution
 
 First off, a disclaimer: this won't be the most elegant solution, but the most mathematically satisfying one. As always, there are multiple ways to do this problem. The most efficient way is to guess some sinusoidal motion with damping, and solving for the frequencies and coeffiecients.
 
-Let's start by finding the magnetic force. Denote the velocity vector by $\boldsymbol{v} = v_x \boldsymbol{\hat{x}} + v_y \boldsymbol{\hat{y}} + v_z \boldsymbol{\hat{z}}$. Magnetic force is given by $\boldsymbol{F} = q \boldsymbol{v} \times \boldsymbol{B}$.
-Evaulating the cross products, or using the right hand rule, we can see that the force in the $\boldsymbol{\hat{z}}$-direction vanishes.
+Let's start by finding the magnetic force. Denote the velocity vector by $\vec{v} = v_x \vec{\hat{x}} + v_y \vec{\hat{y}} + v_z \vec{\hat{z}}$. Magnetic force is given by $\vec{F} = q \vec{v} \times \vec{B}$.
+Evaulating the cross products, or using the right hand rule, we can see that the force in the $\vec{\hat{z}}$-direction vanishes.
 Therefore, we only need to consider the x and y-directions in order to use Newton's Second Law. We can't use conservation of energy here because both the magnetic force is perpendicular to the velocity, resulting in 0 work being done by it. Moreover, both forces are nonconservative.
 
 Using Newton's Second Law in the x-direction,
@@ -36,7 +36,7 @@ $$
 This is a system of differential equations, so we use the method of normal modes, arising from linear algebra. We start by guessing a solution in the form of
 
 $$
-\boldsymbol{v} =
+\vec{v} =
 \begin{pmatrix}
 A_1 \\
 A_2 \\
@@ -73,10 +73,10 @@ $$
 \lambda_2 = - \frac{\alpha}{m} - i \frac{qB}{m}
 $$
 
-The eigenvectors can be found by substituting the eigenvalues into the matrix and using Gaussian elimination to solve for $A_1$ and $A_2$. Let the respective eigenvectors be $\boldsymbol{e}_1$ and $\boldsymbol{e}_2$.
+The eigenvectors can be found by substituting the eigenvalues into the matrix and using Gaussian elimination to solve for $A_1$ and $A_2$. Let the respective eigenvectors be $\vec{e}_1$ and $\vec{e}_2$.
 
 $$
-\boldsymbol{e}_1 =
+\vec{e}_1 =
 \begin{pmatrix}
 - i \\
 1 \\
@@ -84,7 +84,7 @@ $$
 $$
 
 $$
-\boldsymbol{e}_2 =
+\vec{e}_2 =
 \begin{pmatrix}
 i \\
 1 \\
@@ -95,7 +95,7 @@ Now is the fun (acquired taste ¯\_(ツ)_/¯) part.
 Using the eigenvalues and eigenvectors we solved for, we can say that the general solution for the velocity will be in the form
 
 $$
-\boldsymbol{v}(t) = C_1
+\vec{v}(t) = C_1
 \begin{pmatrix}
 - i \\
 1 \\
@@ -111,7 +111,7 @@ $$
 We can solve for the initial conditions to find that
 
 $$
-\boldsymbol{v}(t) = v_0 e^{- \frac{\alpha}{m} t}
+\vec{v}(t) = v_0 e^{- \frac{\alpha}{m} t}
 \begin{pmatrix}
 \sin{\left (\frac{qB}{m} t\right)} \\
 \cos{\left (\frac{qB}{m} t\right)} \\
@@ -121,7 +121,7 @@ $$
 To find the displacement from the origin, we integrate (to avoid integrating by parts, convert both components into complex exponentials) this vector with respect to time, and find
 
 $$
-\boldsymbol{r} = \frac{m^2 v_0}{\alpha^2 + q^2 B^2}
+\vec{r} = \frac{m^2 v_0}{\alpha^2 + q^2 B^2}
 \begin{pmatrix}
 \frac{qB}{m} - \frac{\alpha}{m} e^{- \frac{\alpha}{m} t} \sin \left (\frac{qB}{m} t \right) - \frac{qB}{m} e^{- \frac{\alpha}{m} t} \cos \left (\frac{qB}{m} t \right) \\
 \frac{\alpha}{m} - \frac{\alpha}{m} e^{- \frac{\alpha}{m} t} \cos \left (\frac{qB}{m} t \right) + \frac{qB}{m} e^{- \frac{\alpha}{m} t} \sin \left (\frac{qB}{m} t \right)
