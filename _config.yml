@@ -61,6 +61,7 @@ header_pages:
  - Tutoring.md
  - about.md
  - todo.md
+ - Press.md
 
 markdown: kramdown
 
