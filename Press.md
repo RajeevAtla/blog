@@ -4,4 +4,6 @@ title: Press
 permalink: /press/
 ---
 
-Under construction -- come back later!
+This is where I'll be putting every public appearance of mine.
+
+Still under construction!
