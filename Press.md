@@ -8,8 +8,6 @@ This is where I'll be putting every public appearance on the Internet of mine.
 
 My name was on my [school's list of people who got 5's on their AP Exams in 2019](https://jps.edison.k12.nj.us/academics/science/academic-shout-outs). Unfortunately it hasn't been updated for 2020.
 
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
-
 My name is on the [Quiz Bowl wiki for my school](https://www.qbwiki.com/wiki/J.P._Stevens).
 
 My quizbowl performance is detailed [here](https://www.naqt.com/stats/player/?contact_id=458794).
