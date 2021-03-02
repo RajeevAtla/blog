@@ -4,6 +4,10 @@ title: Press
 permalink: /press/
 ---
 
+For starters, there is [this website]({{ site.baseurl }}).
+
+Some information about this website is somehow on [Wolfram Alpha](https://www.wolframalpha.com/input/?i=rajeevatla.com).
+
 This is where I'll be putting every public appearance on the Internet of mine.
 
 My name was on my [school's list of people who got 5's on their AP Exams in 2019](https://jps.edison.k12.nj.us/academics/science/academic-shout-outs). Unfortunately it hasn't been updated for 2020.
