@@ -4,7 +4,7 @@ title: Press
 permalink: /press/
 ---
 
-For starters, there is [this website]({{ site.baseurl }}).
+For starters, there is [this website]({{ site.baseurl }}{% link index.html %}) of course!
 
 Some information about this website is somehow on [Wolfram Alpha](https://www.wolframalpha.com/input/?i=rajeevatla.com).
 
