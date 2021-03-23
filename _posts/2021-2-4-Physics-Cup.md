@@ -245,5 +245,3 @@ It is very possible that $\alpha + 2 \beta \geq \frac{\pi}{2}$ given the range f
 This, in turn, would cause the quantity $\cos{\left ( \alpha + 2 \beta \right)}$ to be negative, causing the torque due to gravity to be negative, and as a result causing the force applied to be against the direction it should be facing. This is indicative of a contradiction, so we can assume $\alpha + 2 \beta < \frac{\pi}{2}$.
 However, if $\alpha$ were to increase, then $\mathcal{C}$ would rise, which would be an energetic paradox (think as hard as you can about this!).
 The only conclusion then is that $\alpha$ cannot rise without falling back to a safe value.
-
-\end{document}
