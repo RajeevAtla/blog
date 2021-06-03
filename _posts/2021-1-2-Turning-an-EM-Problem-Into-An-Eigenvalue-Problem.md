@@ -6,7 +6,7 @@ categories: misc
 comments: true
 ---
 
-So I cam across a problem when I was doing some EM that I want to share with you today.
+So I came across a problem when I was doing some EM that I want to share with you today.
 
 ## Problem (BAUPC 1997)
 
