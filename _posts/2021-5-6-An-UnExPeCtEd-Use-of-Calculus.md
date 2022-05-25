@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: "Why You Should Stop Calling People Smart"
+title: "uNeXpEcTeD uSeS oF mAtH"
 categories: misc
 comments: true
 ---
