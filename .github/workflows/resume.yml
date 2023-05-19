@@ -23,7 +23,13 @@ jobs:
         run: |
           git submodule update
         
+      - name: Check if there are any changes
+        id: verify_diff
+        run: |
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT  
+      
       - name: commit resume files
+        if: steps.verify_diff.outputs.changed == 'true'
         run: |
           git config user.email github-actions@github.com
           git config user.name github-actions
@@ -31,6 +37,7 @@ jobs:
           git commit -m "add resume files"
           
       - name: push resume files
+        if: steps.verify_diff.outputs.changed == 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
