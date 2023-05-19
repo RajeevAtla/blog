@@ -21,7 +21,7 @@ jobs:
 
       - name: pull resume files from resume repo
         run: |
-          git submodule add https://github.com/rajeevatla/resume.git
+          git submodule update
         
       - name: commit resume files
         run: |
