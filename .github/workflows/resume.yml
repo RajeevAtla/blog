@@ -21,7 +21,8 @@ jobs:
 
       - name: pull resume files from resume repo
         run: |
-          git submodule update
+          rm -r resume
+          git submodule add https://github.com/rajeevatla/resume.git
         
       - name: Check if there are any changes
         id: verify_diff
