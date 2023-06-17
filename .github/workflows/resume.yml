@@ -30,7 +30,7 @@ jobs:
           git config user.email github-actions@github.com
           git config user.name github-actions
           git add .
-          git commit -m "add resume files"
+          git commit --allow-empty -m "add resume files"
           
       - name: push resume files
         uses: ad-m/github-push-action@master
