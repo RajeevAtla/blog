@@ -1,4 +1,0 @@
-- [X] Fix the math in "A Nice(ish) Eigenvalue Problem"
-- [ ] Finish up Chapter 2 of Chen's book
-- [X] Some grammar mistakes in "An intesting kinematics problem"
-- [X] Add the Princeton Qual problems
