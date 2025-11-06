@@ -3,7 +3,7 @@ author:
   name: Rajeev Atla
   email: rajeev@rajeevatla.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  My old blog
+  My blog
 url: "https://rajeevatla.github.io/blog"
 
 show_excerpts: true # set to true to show excerpts on the homepage
