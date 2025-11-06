@@ -3,8 +3,8 @@ author:
   name: Rajeev Atla
   email: rajeev@rajeevatla.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Personal website of a college senior interested in the computational sciences.
-url: "https://rajeevatla.com"
+  My old blog
+url: "https://rajeevatla.github.io/blog"
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -27,10 +27,7 @@ minima:
     # twitter: 
     github:  RajeevAtla
     # devto: 
-    # dribbble: 
-    facebook: rajeevratla
-    # flickr:  
-    instagram: rat.la
+    # dribbble:
     linkedin: rajeev-atla
     # pinterest: 
     # youtube: 
